@@ -7,7 +7,7 @@ class Sept518 extends Component {
         return (
             <div>
                 <header className="AllBlogHeaders"> Being The Only Girl:: </header>
-                <p> A brief post on some views and experiences. Growing up as a millennial in a white middle-class family, I have never felt like a minority or had any issues with my gender. I went
+                <p className="AllBlogBodies"> A brief post on some views and experiences. Growing up as a millennial in a white middle-class family, I have never felt like a minority or had any issues with my gender. I went
                     to a small private high school that was equally distributed and kept in check; upon entering the workforce I slowly became desensitized to the comments and jokes thrown my way by
                     men. Especially in the service industry, being sexually harassed by coworkers is as expected as having a cook that is under the influence 80% of the time. From making comments
                     about my physical appearance ‘damn girl you look hott today!’ to straight questions like ‘how big are your breasts?’ or ‘how flexible are you?’ I quickly learned to just shrug it

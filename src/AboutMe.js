@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './NavBar'
+import blerb from './Pictures/blerb.jpg'
 
 class AboutMe extends Component {
     render() {
         return (
             <div>
+                <img src={blerb} alt="selfie" />
                 <h1> About Me </h1>
                 <h3> This is blog/portfolio I built from scratch, to show off my coding work, as well as keep people up-to-date on my journey. A few months
        ago I had never touched a line of code, and was NOT tech-savvy. Now, thanks to SunCoast Developers Guild, amazing instructors, friends, and family support,
