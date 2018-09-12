@@ -8,15 +8,20 @@ import TwitterLogo from "./Pictures/twitter-logo-final.png"
 class NavBar extends Component {
     render() {
         return (
-            <Router>
                 <div className="NavBar">
-                <section>
-                    <ul>
+                <section className="OptionMenu">
+                    <section>
                     <Link to="/HomePage"> - Home </Link>
+                    </section>
+                    <section>
                     <Link to="/AboutMe"> - About Me </Link>
+                    </section>
+                    <section>
                     <Link to="/BlogPosts"> - Blog Posts </Link>
+                    </section>
+                    <section>
                     <Link to="/CodingExamples"> - Coding Examples </Link>
-                    </ul>
+                    </section>
                     </section>
                     <h3> Follow Me: </h3>
                     <section className="ContactMe"> 
@@ -25,7 +30,6 @@ class NavBar extends Component {
                     <a href="https://www.instagram.com/alexiskjg16/?hl=en"><img src={InstagramLogo} className="AddLogo" alt="Instagram" /></a>
                     </section>
                 </div>
-            </Router>
         )
     }
 }

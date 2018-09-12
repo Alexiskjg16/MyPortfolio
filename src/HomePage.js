@@ -5,17 +5,25 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 class HomePage extends Component {
     render() {
         return (
-            <Router>
-            <div>
+     
+            <div className="FullName">
                 <header> Alexis K. Grisham </header>
                 <header> Junior Front End Developer </header>
-                <Link to={"/AboutMe"}>ABOUT ME </Link>
-                <Link to={"/BlogPosts"}> BLOG POSTS </Link>
-                <Link to={"/CodingExamples"}> CODING EXAMPLES </Link>
+                <section>
+                <Link to="/AboutMe">About Me </Link>
+                </section>
+                <section>
+                <Link to={"/BlogPosts"}> Blog Posts </Link>
+                </section>
+                <section>
+                <Link to={"/CodingExamples"}> Coding Examples </Link>
+                </section>
+                <section>
+                <Link to={"/Resume"}> Resume </Link>
+                </section>
             </div>
-            </Router>
+          
         )
     }
 }
-
 export default HomePage;
