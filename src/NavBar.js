@@ -8,28 +8,27 @@ import TwitterLogo from "./Pictures/twitter-logo-final.png"
 class NavBar extends Component {
     render() {
         return (
-                <div className="NavBar">
+            <div className="NavBar">
                 <section className="OptionMenu">
                     <section>
-                    <Link to="/HomePage"> - Home </Link>
+                        <Link to="/AboutMe"> - About Me </Link>
                     </section>
                     <section>
-                    <Link to="/AboutMe"> - About Me </Link>
+                        <Link to="/BlogPosts"> - Blog Posts </Link>
                     </section>
                     <section>
-                    <Link to="/BlogPosts"> - Blog Posts </Link>
+                        <Link to="/CodingExamples"> - My Code </Link>
                     </section>
                     <section>
-                    <Link to="/CodingExamples"> - Coding Examples </Link>
+                        <Link to="/Resume"> - Resume </Link>
                     </section>
-                    </section>
-                    <h3> Follow Me: </h3>
-                    <section className="ContactMe"> 
+                </section>
+                <section className="ContactMe">
                     <a href="https://twitter.com/Alexiskjg16"><img src={TwitterLogo} className="AddLogo" alt="Twitter" /></a>
                     <a href="https://www.linkedin.com/in/alexis-grisham-434401169/"><img src={LinkedInLogo} className="AddLogo" alt="LinkedIn" /></a>
                     <a href="https://www.instagram.com/alexiskjg16/?hl=en"><img src={InstagramLogo} className="AddLogo" alt="Instagram" /></a>
-                    </section>
-                </div>
+                </section>
+            </div>
         )
     }
 }

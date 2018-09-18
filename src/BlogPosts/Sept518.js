@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../App.css';import NavBar from '../NavBar';
+
 
 class Sept518 extends Component {
 
     render() {
         return (
             <div>
+                 <section>
+                    <NavBar />
+                </section>
                 <header className="AllBlogHeaders"> Being The Only Girl:: </header>
                 <p className="AllBlogBodies"> A brief post on some views and experiences. Growing up as a millennial in a white middle-class family, I have never felt like a minority or had any issues with my gender. I went
                     to a small private high school that was equally distributed and kept in check; upon entering the workforce I slowly became desensitized to the comments and jokes thrown my way by
