@@ -1,37 +1,24 @@
-
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 
 .App {
   display: flex;
   text-align: center;
-  
   width: 150px;
   background-color: rgb(255, 238, 247);
-  height: 100em;
+  height: 80em;
   width: 90em;
   font-family:"Georgia", serif;
 }
 
 .NavBar {
   display: flex;
-  background-image: url(Pictures/classic-world-map.jpg);
-  background-repeat: no-repeat;
-  background-position: 10%;
-  background-size: 100%;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-between;
   font-size: 18px;
   font-family: "Georgia", serif;
-  width: 79.5em;
   height: 10em;
-  padding-top: 2em;
-  padding-bottom: -2em;
-}
-
-.OptionMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-top:1em;
+  padding-top: 3em;
 }
 
 .AddLogo {
@@ -41,20 +28,15 @@
   align-content: space-between;
 }
 
-AboutMe {
-  display: flex;
-  justify-content: center;
-}
-
 .TwoAboutMe {
-  height: 17em;
-  width: auto;
+  height: 21em;
+  width: 19em;
   border: .05em solid black;
 }
 
 .ThreeAboutMe {
-  height: 17em;
-  width: auto;
+  height: 21em;
+  width: 32.5em;
   border: .05em solid black;
 }
 
@@ -65,13 +47,10 @@ AboutMe {
   margin-top: .5em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Clicker Script');
-
 .FullName {
   display: flex;
   align-content: center;
   justify-content: center;
-  font-family: 'Clicker Script';
   font-size: 120px;
   padding: 5em;
 }
@@ -103,5 +82,12 @@ AboutMe {
 .ImageSection {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  align-content: stretch;
+}
+
+.MyName {
+  display: flex;
+  font-size: 38px;
+  font-family: 'Clicker Script';
+
 }
