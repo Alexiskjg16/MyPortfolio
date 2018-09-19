@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import blerb from './Pictures/blerb.jpg'
+/*import blerb from './Pictures/blerb.jpg'*/
 import adam from './Pictures/adam.jpg'
+import wanderlust from './Pictures/wanderlust.jpg'
+import workhardandbenice from './Pictures/workhardandbenice.jpg'
 import familyseattle from './Pictures/familyseattle.jpg'
 import NavBar from './NavBar';
 
@@ -12,9 +14,10 @@ class AboutMe extends Component {
                 <section>
                     <NavBar />
                     </section>
-                <section>
-                <img src={blerb} alt="selfie" className="TwoAboutMe"/>
+                <section className="ImageSection">
+                <img src={wanderlust} alt="selfie" className="TwoAboutMe"/>
                 <img src={adam} alt="my son" className="TwoAboutMe" />
+                <img src={workhardandbenice} alt="themotto" className="TwoAboutMe" />
                 <img src={familyseattle} alt="my family" className="ThreeAboutMe" />
                 </section>
                 <h1> Who Am I, Anyways?</h1>
