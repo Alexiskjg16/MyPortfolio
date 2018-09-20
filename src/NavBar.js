@@ -9,21 +9,13 @@ class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
-                    <section>
-                        <Link to="/AboutMe"> - About Me </Link>
-                    </section>
-                    <section>
-                        <Link to="/BlogPosts"> - Blog Posts </Link>
-                    </section>
-                    <section>
-                        <header className="MyName"> Alexis K Grisham </header>
-                    </section>
-                    <section>
-                        <Link to="/CodingExamples"> - My Code </Link>
-                    </section>
-                    <section>
-                        <Link to="/Resume"> - Resume </Link>
-                    </section>
+                <section>
+                    <Link to="/AboutMe"> - About Me </Link>
+                </section>
+                <section>
+                    <Link to="/CodingExamples"> - My Code </Link>
+                </section>
+
             </div>
         )
     }

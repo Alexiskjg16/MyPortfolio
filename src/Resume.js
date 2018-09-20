@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavBar from './NavBar';
+import Footer from './FooterContact';
 
 class Resume extends Component {
     render() {
@@ -23,6 +24,9 @@ class Resume extends Component {
                 <h2>Dillons Grocer</h2><h3>Bakery Clerk</h3>
                 <h2>RadioShack</h2><h3>Sales Associate</h3>
                 <h2>Kojaks Palmetto Ribhouse</h2><h3>Waitress/Hostess/Bartender</h3>
+                <section>
+                    <Footer />
+                </section>
             </div>
         )
     }

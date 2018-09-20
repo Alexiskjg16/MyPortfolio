@@ -3,22 +3,48 @@
 .App {
   display: flex;
   text-align: center;
+  flex-direction: column;
   width: 150px;
-  background-color: rgb(255, 238, 247);
-  height: 80em;
+  background-color: rgb(255, 247, 251);
   width: 90em;
   font-family:"Georgia", serif;
 }
 
+/* NavBar*/
+
 .NavBar {
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  align-content: space-between;
-  font-size: 18px;
-  font-family: "Georgia", serif;
-  height: 10em;
-  padding-top: 3em;
+  justify-content: center;
+  align-content: center;
+  font-size: 24px;
+  font-family: 'Clicker Script';
+  height: 5em;
+  padding-top: 1em;
+}
+.MyName {
+  display: flex;
+  font-size: 120px;
+  font-family: 'Clicker Script';
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  align-content: center;
+}
+.ContactMe {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 5em;
+}
+
+.LinksToStuff {
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 46px;
+font-family: 'Clicker Script';
+padding: 3em;
 }
 
 .AddLogo {
@@ -27,67 +53,46 @@
   width: auto;
   align-content: space-between;
 }
+/*AboutMePage*/
 
 .TwoAboutMe {
   height: 21em;
   width: 19em;
   border: .05em solid black;
 }
-
 .ThreeAboutMe {
   height: 21em;
   width: 32.5em;
   border: .05em solid black;
 }
-
-.ContactMe {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin-top: .5em;
-}
-
-.FullName {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 120px;
-  padding: 5em;
-}
-
-.CodeList {
-  list-style: none;
-}
-
-.AllBlogHeaders {
-  font-size: 24px;
-  margin-top: 3em;
-  font-family: "Georgia", serif;
-}
-
-.AllBlogBodies {
-  display: flex;
-  font-size: 18px;
-  font-family: "Georgia", serif;
-  justify-content: center;
-
-}
-
-.BlogLinks {
-  font-size: 24px;
-  margin: 1em;
-  font-family: "Georgia", serif;
-}
-
 .ImageSection {
   display: flex;
   flex-direction: row;
   align-content: stretch;
 }
 
-.MyName {
-  display: flex;
-  font-size: 38px;
-  font-family: 'Clicker Script';
+/*CodePage*/
 
+.CodeList {
+  list-style: none;
 }
+
+/*BlogBody*/
+
+.AllBlogHeaders {
+  font-size: 24px;
+  margin-top: 3em;
+  font-family: "Georgia", serif;
+}
+.AllBlogBodies {
+  display: flex;
+  font-size: 18px;
+  font-family: "Georgia", serif;
+  justify-content: center;
+}
+.BlogLinks {
+  font-size: 24px;
+  margin: 1em;
+  font-family: "Georgia", serif;
+}
+
