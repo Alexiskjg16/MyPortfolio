@@ -5,14 +5,18 @@ import Footer from '../FooterContact'
 class HomeCoding extends Component {
     render() {
         return (
-            <div>
+            <div className="HomeCodePage">
                 <section>
                     <NavBar />
                 </section>
                 <ul>
                     <li className="CodeList"> Hey! This whole website is built using REACT.js from scratch. </li>
-                    <li className="CodeList"> Scoreboard - <a href="http://faithful-trouble.surge.sh/">Go Jayhawks! </a>
+                    <li className="CodeList"> Scoreboard - <a href="http://faithful-trouble.surge.sh/" target="_blank">Go Jayhawks! </a>
                         -- <a href="https://github.com/Alexiskjg16/VueScoreboard" target="_blank">What's the Code?</a></li>
+                        <li className="CodeList"><a href="http://snowing-hangman.surge.sh" target="_blank"> Hangman </a>
+                        -- <a href="https://github.com/Alexiskjg16/SnowmanGame" target="_blank">What's the Code?</a></li>
+                        <li className="CodeList"><a href="http://weather-app.alexisgrisham.surge.sh" target="_blank"> WeatherAPI </a>
+                        --<a href="https://github.com/Alexiskjg16/weather-app" target="_blank"> What's the Code?</a></li>
                 </ul>
                 <section>
                     <Footer />

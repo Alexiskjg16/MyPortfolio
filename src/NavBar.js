@@ -9,10 +9,10 @@ class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
-                <section>
+                <section className="AboutLink">
                     <Link to="/AboutMe"> - About Me </Link>
                 </section>
-                <section>
+                <section className="CodeLink">
                     <Link to="/CodingExamples"> - My Code </Link>
                 </section>
 

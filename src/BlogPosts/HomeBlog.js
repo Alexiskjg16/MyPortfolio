@@ -11,9 +11,11 @@ class HomeBlog extends Component {
                 <section>
                     < NavBar />
                 </section>
+                <section className="MainBlogPage">
                 <h1> Blog Posts </h1>
                 <Link to={"/BlogPosts/Sept518"} className="BlogLinks"> 29 August 2018 </Link>
                 <Link to={"/BlogPosts/Sept1118"} className="BlogLinks"> 10 September 2018 </Link>
+                </section>
                 <section>
                     <Footer />
                 </section>

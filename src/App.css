@@ -15,13 +15,23 @@
 .NavBar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   font-size: 24px;
   font-family: 'Clicker Script';
   height: 5em;
-  padding-top: 1em;
+  padding: 1em;
 }
+
+.AboutLink {
+  display:flex;
+  justify-content: flex-start;
+}
+.CodeLink{
+  display:flex;
+  justify-content: flex-end;
+}
+
 .MyName {
   display: flex;
   font-size: 120px;
@@ -34,6 +44,7 @@
 .ContactMe {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-content: center;
   margin-bottom: 5em;
 }
@@ -49,7 +60,7 @@ padding: 3em;
 
 .AddLogo {
   display: flex;
-  height: 2em;
+  height: 3em;
   width: auto;
   align-content: space-between;
 }
@@ -73,11 +84,26 @@ padding: 3em;
 
 /*CodePage*/
 
+.HomeCodePage {
+  height: 50em;
+  background-color: rgb(255, 247, 251);
+}
 .CodeList {
   list-style: none;
+  font-size: 32px;
+  padding: 1em;
 }
 
 /*BlogBody*/
+
+.MainBlogPage {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  flex-direction: column;
+  font-family: 'Clicker Script';
+  font-size: 42px;
+}
 
 .AllBlogHeaders {
   font-size: 24px;
