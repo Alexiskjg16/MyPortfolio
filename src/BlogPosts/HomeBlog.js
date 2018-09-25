@@ -15,9 +15,13 @@ class HomeBlog extends Component {
                 <h1> Blog Posts </h1>
                 <Link to={"/BlogPosts/Sept518"} className="BlogLinks"> 29 August 2018 </Link>
                 <Link to={"/BlogPosts/Sept1118"} className="BlogLinks"> 10 September 2018 </Link>
+                <Link to={"/BlogPosts/Sept2418"} className="BlogLinks"> 24 September 2018 </Link>
                 </section>
                 <section>
                     <Footer />
+                </section>
+                <section>
+                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
                 </section>
             </div>
 

@@ -7,6 +7,7 @@ import workhardandbenice from './Pictures/workhardandbenice.jpg'
 import familyseattle from './Pictures/familyseattle.jpg'
 import NavBar from './NavBar';
 import Footer from './FooterContact'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 class AboutMe extends Component {
     render() {
@@ -31,6 +32,9 @@ class AboutMe extends Component {
                     code-related blog posts, or if you are interested, take a peek at my resume! </h3>
                 <section>
                     <Footer />
+                </section>
+                <section>
+                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
                 </section>
             </div>
 

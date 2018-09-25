@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import NavBar from '../NavBar';
 import Footer from '../FooterContact'
 
@@ -20,6 +21,9 @@ class HomeCoding extends Component {
                 </ul>
                 <section>
                     <Footer />
+                </section>
+                <section>
+                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
                 </section>
             </div>
         )
