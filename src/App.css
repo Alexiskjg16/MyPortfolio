@@ -19,17 +19,24 @@
   align-content: center;
   font-size: 24px;
   font-family: 'Clicker Script';
-  height: 5em;
   padding: 1em;
 }
 
 .AboutLink {
   display:flex;
   justify-content: flex-start;
+  font-size: 32px;
+  background-color: white;
+  height: 1.5em;
+  width: 45em;
 }
 .CodeLink{
   display:flex;
   justify-content: flex-end;
+  font-size: 32px;
+  background-color: white;
+  height: 1.5em;
+  width: 45em;
 }
 
 .MyName {
@@ -38,6 +45,15 @@
   font-family: 'Clicker Script';
   justify-content: center;
   margin-top: 1.5em;
+  margin-bottom: 1em;
+  align-content: center;
+}
+
+.MyTitle {
+  display: flex;
+  font-size: 90px;
+  font-family: 'Clicker Script';
+  justify-content: center;
   margin-bottom: 2em;
   align-content: center;
 }
@@ -60,7 +76,7 @@ padding: 3em;
 
 .AddLogo {
   display: flex;
-  height: 3em;
+  height: 5em;
   width: auto;
   align-content: space-between;
 }
@@ -87,6 +103,15 @@ padding: 3em;
   display: flex;
   flex-direction: row;
   align-content: stretch;
+}
+
+.AboutParagraph {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 10em;
+  font-size: 18px;
+  width: 60em;
 }
 
 /*CodePage*/
@@ -129,3 +154,19 @@ padding: 3em;
   font-family: "Georgia", serif;
 }
 
+/*Resume Page*/
+
+.ResumeDetails {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 10em;
+  font-size: 18px;
+  width: 60em;
+}
+
+@media (max-width: 736px) {
+  text-align: center;
+  width: 736px;
+  height: auto;
+}

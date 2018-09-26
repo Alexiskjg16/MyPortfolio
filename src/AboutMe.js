@@ -22,14 +22,14 @@ class AboutMe extends Component {
                     <img src={workhardandbenice} alt="themotto" className="TwoAboutMe" />
                     <img src={familyseattle} alt="my family" className="ThreeAboutMe" />
                 </section>
-                <h1> Who Am I, Anyways?</h1>
-                <h3> My name is Alexis Grisham. A few months ago I had never touched a line of code, and was NOT tech-savvy.
-                     Now,thanks to Suncoast Developers Guild, amazing instructors, friends, and family support, I am leaping 
-                     headfirst into the world of REACT development. I'm a single mom of the most adorable two-year-old boy 
-                     you'll ever meet, I love art, I have a passion for all things word-related, and am always pumped for 
-                     the next adventure. </h3>
-                <h3> Check out the links at the top of the screen for examples of my codes, some hopefully interesting 
-                    code-related blog posts, or if you are interested, take a peek at my resume! </h3>
+                    <h1> Who Am I, Anyways?</h1>
+                    <p className="AboutParagraph"> My name is Alexis Grisham. A few months ago I had never touched a line of code, and was NOT tech-savvy.
+                         Now,thanks to Suncoast Developers Guild, amazing instructors, friends, and family support, I am leaping
+                         headfirst into the world of REACT development. I'm a single mom of the most adorable two-year-old boy
+                         you'll ever meet, I love art, I have a passion for all things word-related, and am always pumped for
+                     the next adventure. </p>
+                    <p className="AboutParagraph"> Check out the links at the top of the screen for examples of my codes, some hopefully interesting
+                    code-related blog posts, or if you are interested, take a peek at my resume! </p>
                 <section>
                     <Footer />
                 </section>
