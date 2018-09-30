@@ -11,21 +11,29 @@ class Resume extends Component {
                 <section>
                     < NavBar />
                 </section>
+                <span className="ResHeads" className="Skillset"> Skillset: </span>
+                    <p className="Myskills">GitHub, React.js, JavaScript, HTML, CSS, Vue.js, VisualStudio, .NET, Flexbox,
+                    ChromeCast, Communication, Team-Building, Problem-Solving, Social Media, Networking</p>
                 <section className="ResumeDetails">
-                    <h1> Education:</h1>
-                    <h2>SunCoast Developers Guild 2018</h2>
-                    <h2>Kansas City Kansas Community College 2015</h2>
-                    <h2>Providence Community High School 2012</h2>
-                    <h1> Skillset: </h1>
-                    <h2>GitHub, React.js, JavaScript, HTML, CSS, Vue.js, VisualStudio, .NET, Flexbox,
-                    ChromeCast, Communication, Team-Building, Problem-Solving, Social Media, Networking,
-            CPR</h2>
-                    <h1> Employment History:</h1>
-                    <h2>Ruby Tuesdays</h2><h3>Waitress</h3>
-                    <h2>Lansing USD 469</h2><h3>Substitute Teacher</h3>
-                    <h2>Dillons Grocer</h2><h3>Bakery Clerk</h3>
-                    <h2>RadioShack</h2><h3>Sales Associate</h3>
-                    <h2>Kojaks Palmetto Ribhouse</h2><h3>Waitress/Hostess/Bartender</h3>
+                    <span className="ResHeads"> Education:</span>
+                    <p className="ResSecond">SunCoast Developers Guild 2018</p>
+                    <p>Web Certifications</p>
+                    <p className="ResSecond">Kansas City Kansas Community College 2015</p>
+                    <p>Associates Degree</p>
+                    <p className="ResSecond">Providence Community School 2012</p>
+                    <p>High School Diploma</p>
+                    
+                    <span className="ResHeads"> Employment History:</span>
+                    <p className="ResSecond">Ruby Tuesdays</p>
+                    <p>Waitress </p>
+                    <p className="ResSecond">Lansing USD 469</p>
+                    <p> Substitute Teacher</p>
+                    <p className="ResSecond">Dillons Grocer</p>
+                    <p> Bakery Clerk</p>
+                    <p className="ResSecond">RadioShack</p>
+                    <p> Sales Associate</p>
+                    <p className="ResSecond">Kojaks Palmetto Ribhouse</p>
+                    <p> Waitress/Hostess/Bartender</p>
                 </section>
                 <section>
                     <Footer />

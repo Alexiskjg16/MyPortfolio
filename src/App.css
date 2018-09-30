@@ -2,7 +2,6 @@
 
 .App {
   display: flex;
-  text-align: center;
   flex-direction: column;
   width: 150px;
   background-color: rgb(255, 247, 251);
@@ -43,6 +42,7 @@
   display: flex;
   font-size: 120px;
   font-family: 'Clicker Script';
+  font-style: bold;
   justify-content: center;
   margin-top: 1.5em;
   margin-bottom: 1em;
@@ -67,9 +67,10 @@
 
 .LinksToStuff {
 display: flex;
-flex-direction: column;
-justify-content: center;
-font-size: 46px;
+flex-direction: row;
+justify-content: space-around;
+align-content: center;
+font-size: 52px;
 font-family: 'Clicker Script';
 padding: 3em;
 }
@@ -158,11 +159,39 @@ padding: 3em;
 
 .ResumeDetails {
   display: flex;
-  align-content: center;
+  align-items: flex-start;
   flex-direction: column;
-  margin-left: 10em;
   font-size: 18px;
-  width: 60em;
+  margin-left: 5em;
+  width: 50em;
+}
+
+.ResHeads {
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Clicker Script';
+  font-size: 34px;
+}
+
+.ResSecond {
+  font-style: bold;
+  font-size: 24px;
+}
+
+.Skillset {
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Clicker Script';
+  margin-left: 2.5em;
+  font-size: 34px;
+}
+
+.Myskills {
+  display: flex;
+  align-self: flex-start;
+  font-size: 24px;
+  margin-left: 3.5em;
+  width: 45em;
 }
 
 @media (max-width: 736px) {

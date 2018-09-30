@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './FooterContact.js'
 
@@ -12,18 +12,20 @@ class HomePage extends Component {
                     <NavBar />
                 </section>
                 <section>
-                    <header className="MyName"> Alexis K Grisham </header>
+                    <header className="MyName"> Alexis K. Grisham </header>
                     <h1 className="MyTitle"> Junior Developer </h1>
                 </section>
                 <section>
                     <Footer />
                 </section>
-                    <section className="LinksToStuff">
+                <section className="LinksToStuff">
+                    <span>
                         <Link to="/BlogPosts"> - Blog Posts </Link>
-                    </section>
-                    <section className="LinksToStuff">
+                    </span>
+                    <span>
                         <Link to="/Resume"> - Resume </Link>
-                    </section>
+                    </span>
+                </section>
             </div>
 
         )
