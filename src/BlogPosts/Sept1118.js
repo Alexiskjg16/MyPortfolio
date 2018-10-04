@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Footer from '../FooterContact.js'
 import '../App.css';
 import NavBar from '../NavBar';

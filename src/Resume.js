@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar';
 import Footer from './FooterContact';
@@ -11,7 +11,7 @@ class Resume extends Component {
                 <section>
                     < NavBar />
                 </section>
-                <span className="ResHeads" className="Skillset"> Skillset: </span>
+                <span className="Skillset"> Skillset: </span>
                     <p className="Myskills">GitHub, React.js, JavaScript, HTML, CSS, Vue.js, VisualStudio, .NET, Flexbox,
                     ChromeCast, Communication, Team-Building, Problem-Solving, Social Media, Networking</p>
                 <section className="ResumeDetails">
