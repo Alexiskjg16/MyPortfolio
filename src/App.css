@@ -3,9 +3,8 @@
 .App {
   display: flex;
   flex-direction: column;
-  width: 150px;
   background-color: rgb(255, 247, 251);
-  width: 90em;
+  width: 100%;
   font-family:"Georgia", serif;
 }
 
@@ -16,7 +15,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  font-size: 24px;
   font-family: 'Clicker Script';
   padding: 1em;
 }
@@ -24,28 +22,28 @@
 .AboutLink {
   display:flex;
   justify-content: flex-start;
-  font-size: 32px;
+  font-size: 3em;
   background-color: white;
-  height: 1.5em;
-  width: 45em;
+  height: 10%;
+  width: 50%;
 }
 .CodeLink{
   display:flex;
   justify-content: flex-end;
-  font-size: 32px;
+  font-size: 3em;
   background-color: white;
-  height: 1.5em;
-  width: 45em;
+  height: 10%;
+  width: 50%;
 }
 
 .MyName {
   display: flex;
-  font-size: 120px;
+  font-size: 750%;
   font-family: 'Clicker Script';
   font-style: bold;
   justify-content: center;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-top: 10%;
+  margin-bottom: 10%;
   align-content: center;
 }
 
