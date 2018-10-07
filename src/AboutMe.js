@@ -7,7 +7,7 @@ import workhardandbenice from './Pictures/workhardandbenice.jpg'
 import familyseattle from './Pictures/familyseattle.jpg'
 import NavBar from './NavBar';
 import Footer from './FooterContact'
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class AboutMe extends Component {
     render() {
@@ -23,7 +23,7 @@ class AboutMe extends Component {
                     <img src={familyseattle} alt="my family" className="ThreeAboutMe" />
                 </section>
                     <h1> Who Am I, Anyways?</h1>
-                    <img src={blerb} alt="selfie" className="TwoAboutMe" />
+                    <img src={blerb} alt="selfie" className="selfiestick" />
                     <p className="AboutParagraph"> My name is Alexis Grisham. A few months ago I had never touched a line of code, and was NOT tech-savvy.
                          Now,thanks to Suncoast Developers Guild, amazing instructors, friends, and family support, I am leaping
                          headfirst into the world of REACT development. I'm a single mom of the most adorable two-year-old boy

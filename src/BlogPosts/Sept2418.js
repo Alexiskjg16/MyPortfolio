@@ -32,16 +32,16 @@ myself and not getting a break to unwind, and it never ends well. </p>
     off. So go easy on yourself if you don’t spit out answers right away! </p>
                 <p className="AllBlogBodies">Bring it With You :
                 Maybe it’s being a mom and a female, but I always tend to over-prep. But it hasn’t steered me wrong yet. In my everyday bag I always have these necessities :
-                Advil/Ibuprofen
-                Chapstick
-                A granola bar
-                Headphones
-                Laptop Charger
-                Phone Charger(sorry about that one time I forgot, Mom!)
-                Gum
-                Spare notebook paper
-                A sweater(if you’re in an office space like ours that is always freezing!)
-                Water Bottle
+                Advil/Ibuprofen, 
+                Chapstick, 
+                A granola bar, 
+                Headphones, 
+                Laptop Charger, 
+                Phone Charger(sorry about that one time I forgot, Mom!), 
+                Gum, 
+                Spare notebook paper, 
+                A sweater(if you’re in an office space like ours that is always freezing!), 
+                Water Bottle, 
                 Fidget Spinner(if you have trouble sitting still like me!)
 </p>
                 <p className="AllBlogBodies">Time Management :

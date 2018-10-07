@@ -14,7 +14,7 @@ class Sept1118 extends Component {
                     <NavBar />
                 </section>
                 <header className="AllBlogHeaders"> The Imposter Syndrome </header>
-                <p>
+                <p className="AllBlogBodies">
                 Wikipedia defines imposter syndrome as ‘a psychological pattern in which an individual doubts their accomplishments and has
                  a persistent internalized fear of being exposed as a “fraud”.’ Being thrown into coding boot camp, they fully warn us about 
                  this effect, stating that learning so much so quickly makes us feel vastly less prepared than we actually are. And boy is 
