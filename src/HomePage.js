@@ -13,7 +13,7 @@ class HomePage extends Component {
                 </section>
                 <section>
                     <header className="MyName"> Alexis K. Grisham </header>
-                    <h1 className="MyTitle"> Junior Developer </h1>
+                    <h1 className="MyTitle"> Junior Full-Stack Developer </h1>
                 </section>
                 <section>
                     <Footer />
