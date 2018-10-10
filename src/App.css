@@ -20,6 +20,11 @@
   padding: 1em;
 }
 
+.navLinks {
+  text-decoration: none;
+  color: black;
+}
+
 .AboutLink {
   display:flex;
   justify-content: flex-start;
@@ -60,6 +65,7 @@
   justify-content: center;
   align-content: center;
   margin-bottom: 10%;
+  width: 100%;
 }
 
 .LinksToStuff {
@@ -74,7 +80,7 @@ padding-bottom: em;
 
 .AddLogo {
   display: flex;
-  height: 5em;
+  height: 6em;
   width: auto;
   align-content: space-between;
 }
@@ -82,9 +88,12 @@ padding-bottom: em;
 .AverageHomeLink {
   display: flex;
   font-family: 'Clicker Script';
-  font-size: 3em;
+  font-size: 3.2em;
   justify-content: center;
   background-color: rgb(255, 247, 251);
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: black;
 }
 /*AboutMePage*/
 
@@ -104,11 +113,24 @@ padding-bottom: em;
   align-content: stretch;
 }
 
+.visitingSP {
+  display: flex;
+  height: 22.5em;
+}
+
+.holdingFire {
+  display: flex;
+  height: 22.5em;
+}
+
+.beElleWoods {
+  display:flex;
+  height: 22.5em;
+}
+
 .selfiestick {
   display: flex;
-  height: 22em;
-  border: .1em solid grey;
-  margin-left: 40%;
+  height: 22.5em;
 }
 
 .AboutParagraph {

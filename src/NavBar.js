@@ -7,10 +7,12 @@ class NavBar extends Component {
         return (
             <div className="NavBar">
                 <section className="AboutLink">
-                    <Link to="/AboutMe"> - About Me </Link>
+                    <Link to="/AboutMe" className="navLinks"> - About Me </Link>
+                    <Link to="/BlogPosts" className="navLinks"> - Blog Posts</Link>
                 </section>
                 <section className="CodeLink">
-                    <Link to="/CodingExamples"> - My Code </Link>
+                    <Link to="/CodingExamples" className="navLinks"> - My Code </Link>
+                    <Link to="/Resume" className="navLinks"> - Resume </Link>
                 </section>
 
             </div>
