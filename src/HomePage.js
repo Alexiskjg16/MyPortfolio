@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './FooterContact.js'
 
@@ -17,14 +16,6 @@ class HomePage extends Component {
                 </section>
                 <section>
                     <Footer />
-                </section>
-                <section className="LinksToStuff">
-                    <span>
-                        <Link to="/BlogPosts"> - Blog Posts </Link>
-                    </span>
-                    <span>
-                        <Link to="/Resume"> - Resume </Link>
-                    </span>
                 </section>
             </div>
 

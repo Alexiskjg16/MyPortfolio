@@ -12,16 +12,16 @@ class HomeCoding extends Component {
                 </section>
                 <ul>
                     
-                    <li className="CodeList"><a href="http://faithful-trouble.surge.sh/" target="_blank" rel="noopener noreferrer">Go Jayhawks! </a>
-                        -- <a href="https://github.com/Alexiskjg16/VueScoreboard" target="_blank" rel="noopener noreferrer">What's the Code?</a></li>
-                        <li className="CodeList"><a href="https://snowing-hangman.surge.sh" target="_blank" rel="noopener noreferrer"> Hangman </a>
-                        -- <a href="https://github.com/Alexiskjg16/SnowmanGame" target="_blank" rel="noopener noreferrer">What's the Code?</a></li>
-                        <li className="CodeList"><a href="https://weather-app.alexisgrisham.surge.sh" target="_blank" rel="noopener noreferrer"> WeatherAPI </a>
-                        --<a href="https://github.com/Alexiskjg16/weather-app" target="_blank" rel="noopener noreferrer"> What's the Code?</a></li>
-                        <li className="CodeList"><a href="http://tbdvsupport.surge.sh/" target="_blank" rel="noopener noreferrer">Capstone - TBDVSupport </a>
-                        --<a href="https://github.com/Alexiskjg16/THECapstoneProject" target="_blank" rel="noopener noreferrer">What's the Code?</a></li>
-                        <li className="CodeList">Collaboration for "Suncoast Overflow" 
-                        --<a href="https://github.com/chris-packett/suncoast-overflow" target="_blank" rel="noopener noreferrer">What's the Code?</a></li>
+                    <li><a href="http://faithful-trouble.surge.sh/" target="_blank" rel="noopener noreferrer" className="CodeList">Go Jayhawks! </a>
+                        -- <a href="https://github.com/Alexiskjg16/VueScoreboard" target="_blank" rel="noopener noreferrer" className="CodeList">What's the Code?</a></li>
+                        <li><a href="https://snowing-hangman.surge.sh" target="_blank" rel="noopener noreferrer" className="CodeList"> Hangman </a>
+                        -- <a href="https://github.com/Alexiskjg16/SnowmanGame" target="_blank" rel="noopener noreferrer" className="CodeList">What's the Code?</a></li>
+                        <li><a href="https://weather-app.alexisgrisham.surge.sh" target="_blank" rel="noopener noreferrer" className="CodeList"> WeatherAPI </a>
+                        --<a href="https://github.com/Alexiskjg16/weather-app" target="_blank" rel="noopener noreferrer" className="CodeList"> What's the Code?</a></li>
+                        <li><a href="http://tbdvsupport.surge.sh/" target="_blank" rel="noopener noreferrer" className="CodeList">Capstone - TBDVSupport </a>
+                        --<a href="https://github.com/Alexiskjg16/THECapstoneProject" target="_blank" rel="noopener noreferrer" className="CodeList">What's the Code?</a></li>
+                        <li>Collaboration for "Suncoast Overflow" 
+                        --<a href="https://github.com/chris-packett/suncoast-overflow" target="_blank" rel="noopener noreferrer" className="CodeList">What's the Code?</a></li>
                         <li className="CodeList"> Hey! This whole website is built using REACT.js from scratch. </li>
                 </ul>
                 <section>

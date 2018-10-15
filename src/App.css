@@ -147,11 +147,13 @@ padding-bottom: em;
 .HomeCodePage {
   height: 50em;
   background-color: rgb(255, 247, 251);
+ 
 }
 .CodeList {
   list-style: none;
   font-size: 1.7em;
   padding: 1em;
+  color: black;
 }
 
 /*BlogBody*/
@@ -184,6 +186,7 @@ padding-bottom: em;
   font-size: .4em;
   margin: 1em;
   font-family: "Georgia", serif;
+  color: black;
 }
 
 /*Resume Page*/
