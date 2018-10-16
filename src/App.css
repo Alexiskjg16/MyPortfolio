@@ -156,6 +156,7 @@ padding-bottom: em;
   font-size: 1.7em;
   color: black;
   flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .codeImages {
@@ -163,7 +164,6 @@ padding-bottom: em;
   width: 40%;
   height: auto;
   list-style: none;
-  margin-top: 2em;
 }
 
 /*BlogBody*/
