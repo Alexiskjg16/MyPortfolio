@@ -25,7 +25,7 @@ class AboutMe extends Component {
                     <img src={workhardandbenice} alt="themotto" className="TwoAboutMe" />
                     <img src={familyseattle} alt="my family" className="ThreeAboutMe" />
                 </section>
-                    <h1> Who Am I, Anyways?</h1>
+                    <h1 className="MyTitle"> Who Am I, Anyways?</h1>
                     <section className="ImageSection">
                     <img src={spainProfile} alt="visitingSpain" className="visitingSP" />
                     <img src={ElleWoods} alt="beElleWoods" className="beElleWoods" />
