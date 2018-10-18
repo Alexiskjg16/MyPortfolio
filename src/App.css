@@ -23,6 +23,7 @@
 .navLinks {
   text-decoration: none;
   color: black;
+  border-bottom: black solid .04em;
 }
 
 .AboutLink {
@@ -101,11 +102,13 @@ padding-bottom: em;
   width: 19em;
   border: .01em solid black;
 }
+
 .ThreeAboutMe {
   height: 21em;
   width: 32.5em;
   border: .01em solid black;
 }
+
 .ImageSection {
   display: flex;
   flex-direction: row;
@@ -130,6 +133,15 @@ padding-bottom: em;
 .selfiestick {
   display: flex;
   height: 22.5em;
+}
+
+.Catchphrase {
+  display: flex;
+  font-size: 500%;
+  font-family: 'Clicker Script';
+  text-align: center;
+  margin-bottom: 1em;
+
 }
 
 .AboutParagraph {
@@ -234,15 +246,12 @@ padding-bottom: em;
   font-size: 2em;
 }
 
-.ResSecond {
-  font-style: bold;
-  font-size: 1em;
-}
 
 .Skillset {
   display: flex;
   align-items: flex-start;
   font-family: 'Clicker Script';
+  margin-top: 2em;
   margin-left: 2.5em;
   font-size: 3em;
 }
@@ -251,7 +260,7 @@ padding-bottom: em;
   display: flex;
   align-self: flex-start;
   font-size: 24px;
-  margin-left: 3.5em;
+  margin: 1em 5em 2em;
   width: 45em;
 }
 

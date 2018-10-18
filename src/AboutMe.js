@@ -25,20 +25,22 @@ class AboutMe extends Component {
                     <img src={workhardandbenice} alt="themotto" className="TwoAboutMe" />
                     <img src={familyseattle} alt="my family" className="ThreeAboutMe" />
                 </section>
-                    <h1 className="MyTitle"> Who Am I, Anyways?</h1>
+                    <h1 className="Catchphrase"> "I didn't always know what I wanted to do, but I knew the kind of woman
+                    I wanted to be." - Diane Von Furstenberg</h1>
                     <section className="ImageSection">
                     <img src={spainProfile} alt="visitingSpain" className="visitingSP" />
                     <img src={ElleWoods} alt="beElleWoods" className="beElleWoods" />
                     <img src={blerb} alt="selfie" className="selfiestick" />
                     <img src={holdingFire} alt="holdingFire" className="holdingFire"/>
                     </section>
-                    <p className="AboutParagraph"> My name is Alexis Grisham. A few months ago I had never touched a line of code, and was NOT tech-savvy.
-                         Now,thanks to Suncoast Developers Guild, amazing instructors, friends, and family support, I am leaping
-                         headfirst into the world of REACT development. I'm a single mom of the most adorable two-year-old boy
-                         you'll ever meet, I love art, I have a passion for all things word-related, and am always pumped for
-                     the next adventure. </p>
-                    <p className="AboutParagraph"> Check out the links for examples of my codes, some hopefully interesting
-                    code-related blog posts, or if you are interested, take a peek at my resume! </p>
+                    <p className="AboutParagraph"> My name is Alexis Grisham. Thanks to Suncoast Developers Guild and some 
+                        amazing instructors, friends, and family, I am leaping headfirst into the world of full-stack web development.
+                        I am a single mom to the most adorable little boy you'll ever meet, I love all forms of art,
+                        I enjoy traveling (pictured is my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
+                        and am always pumped for the next challenge. </p>
+                    <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
+                     some hopefully interesting and humorous code-related blog posts, or if you are interested, take a 
+                     peek at my resume! </p>
                 <section>
                     <Footer />
                 </section>
