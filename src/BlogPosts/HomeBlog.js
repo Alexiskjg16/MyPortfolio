@@ -5,6 +5,7 @@ import Footer from '../FooterContact';
 import suncoastKids from '../Pictures/suncoastkids.jpg';
 import imposterSyndrome from '../Pictures/imposterSyndrome.jpeg';
 import classroomImage from '../Pictures/classroomImage.jpeg';
+import iCantEven from'../Pictures/I-Cant-Even.gif';
 
 
 class HomeBlog extends Component {
@@ -24,9 +25,15 @@ class HomeBlog extends Component {
                 <img src={imposterSyndrome} alt="imposterSyndromeImage" className="blogImages" />
                 <Link to={"/BlogPosts/Sept1118"} className="BlogLinks"> The Imposter Syndrome </Link>
                 </section>
+                </section>
+                <section className="MainBlogPage">
                 <section className="bloggerHeads">
                 <img src={classroomImage} alt="classroomImage" className="blogImages" />
                 <Link to={"/BlogPosts/Sept2418"} className="BlogLinks"> Lexy's CodeCamp Survival Guide </Link>
+                </section>
+                <section className="bloggerHeads">
+                <img src={iCantEven} alt="ICan'tEven" className="blogImages" />
+                <Link to={"/BlogPosts/Oct2218"} className="BlogLinks"> I Can't Even! </Link>
                 </section>
                 </section>
                 <section>

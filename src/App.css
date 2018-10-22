@@ -168,7 +168,7 @@ padding-bottom: em;
   font-size: 1.7em;
   color: black;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .codeImages {
@@ -219,13 +219,15 @@ padding-bottom: em;
 
 .blogImages {
   display: flex;
-  width: 80%;
+  width: 7em;
   height: auto;
 }
 
 .bloggerHeads {
   display: flex;
   flex-direction: column;
+  padding: 1.5em;
+  margin-left:-2em;
 }
 
 /*Resume Page*/
