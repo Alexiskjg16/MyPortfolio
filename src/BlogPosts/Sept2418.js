@@ -71,10 +71,6 @@ definitely get more work done with that music versus say, classical or other ‘
                 <section>
                     <Footer />
                 </section>
-                <section>
-                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
-                    <Link to={"/BlogPosts"} className="AverageHomeLink"> Back to Blog Posts</Link>
-                </section>
             </div>
         )
     }

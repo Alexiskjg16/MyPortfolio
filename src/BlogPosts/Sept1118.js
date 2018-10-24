@@ -37,10 +37,6 @@ class Sept1118 extends Component {
                  <section>
                     <Footer />
                 </section>
-                <section>
-                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
-                    <Link to={"/BlogPosts"} className="AverageHomeLink"> Back to Blog Posts</Link>
-                </section>
                 </div>
         )
     }

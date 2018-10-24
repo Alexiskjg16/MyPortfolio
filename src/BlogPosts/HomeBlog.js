@@ -39,9 +39,6 @@ class HomeBlog extends Component {
                 <section>
                     <Footer />
                 </section>
-                <section>
-                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
-                </section>
             </div>
 
         )

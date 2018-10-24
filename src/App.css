@@ -23,22 +23,15 @@
 .navLinks {
   text-decoration: none;
   color: black;
-  border-bottom: black solid .04em;
 }
 
 .AboutLink {
   display:flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   font-size: 3em;
+  border-bottom: black solid .04em;
   height: 10%;
-  width: 50%;
-}
-.CodeLink{
-  display:flex;
-  justify-content: flex-end;
-  font-size: 3em;
-  height: 10%;
-  width: 50%;
+  width: 100%;
 }
 
 .MyName {
@@ -94,6 +87,11 @@ padding-bottom: em;
   margin-bottom: 2em;
   text-decoration: none;
   color: black;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
 }
 /*AboutMePage*/
 
@@ -157,9 +155,18 @@ padding-bottom: em;
 
 .HomeCodePage {
   display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
+  flex-direction: column;
   list-style: none;
+}
+
+.indvLi {
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+}
+
+.pageInfo {
+  margin: 5em;
 }
 
 .CodeList {
@@ -174,7 +181,7 @@ padding-bottom: em;
 .codeImages {
   display: flex;
   width: 40%;
-  height: auto;
+  height: 40%;
   list-style: none;
 }
 
@@ -183,7 +190,6 @@ padding-bottom: em;
 .MainBlogPage {
   display: flex;
   justify-content: center;
-  margin-bottom: 2em;
   margin-left: 2em;
   flex-direction: row;
   font-size: 4em;
@@ -219,8 +225,8 @@ padding-bottom: em;
 
 .blogImages {
   display: flex;
-  width: 7em;
-  height: auto;
+  width: 8em;
+  height: 5em;
 }
 
 .bloggerHeads {
@@ -248,6 +254,12 @@ padding-bottom: em;
   font-size: 2em;
 }
 
+.resumeCont {
+  display: flex;
+  justify-content: space-around;
+  size: 3em;
+  margin-top: 1em;
+}
 
 .Skillset {
   display: flex;
@@ -261,7 +273,7 @@ padding-bottom: em;
 .Myskills {
   display: flex;
   align-self: flex-start;
-  font-size: 24px;
+  font-size: 1.5em;
   margin: 1em 5em 2em;
   width: 45em;
 }
