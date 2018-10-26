@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import {Link } from 'react-router-dom';
 import NavBar from '../NavBar';
 import Footer from '../FooterContact';
-import scoreBoard from '../Pictures/scoreboard2.png';
-import snowMan from '../Pictures/snowman2.png';
-import weatherAPI from '../Pictures/weatherapp2.png';
-import TBDV from '../Pictures/supportgroup2.png';
+import scoreBoard from '../Pictures/scoreboard.png';
+import snowMan from '../Pictures/snowman.png';
+import weatherAPI from '../Pictures/weatherapp.png';
+import TBDV from '../Pictures/supportgroup.png';
 import ngTacos from '../Pictures/ngtacos.png';
 
 class HomeCoding extends Component {
     render() {
         return (
-            <div>
+            <div className="App">
                 <section>
                     <NavBar />
                 </section>

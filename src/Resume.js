@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar';
 import Footer from './FooterContact';
@@ -7,7 +6,7 @@ import Footer from './FooterContact';
 class Resume extends Component {
     render() {
         return (
-            <div>
+            <div className="App">
                 <section>
                     < NavBar />
                 </section>
@@ -16,13 +15,13 @@ class Resume extends Component {
                 <h1> alexiskjg16@gmail.com </h1>
                 </section>
                 <span className="Skillset"> Tech Skills: </span>
-                    <span className="Myskills">GitHub, React.js, JavaScript, HTML, CSS, Angular.js, Vue.js, VisualStudio, 
-                    .NET, C#, Flexbox, Trello, ChromeCast, Hyroku </span>
+                    <span className="Myskills"> React.js, Git, JavaScript, HTML, CSS, Angular.js, Vue.js, VisualStudio, 
+                    .NET, C#, Flexbox, Trello, ChromeCast, GitHub, Hyroku </span>
                     <span className="Skillset"> Interpersonal Skills: </span>
                     <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
-                    Ability to Take Feedback and Desire to Learn</span>
+                    Ability to Take Feedback and Desire to Learn, Previously CPR Certified</span>
                     <span className="Skillset"> Participated In: </span>
-                    <span className="Myskills"> Various Meetups, 2018 Code For America Hackathon, Multiple Individual Projects</span>
+                    <span className="Myskills"> Various Meetups, Code For America Hackathon 2018, Multiple Personal Projects</span>
                 <section>
                     <span className="Skillset"> Education:</span>
                     <p className="Myskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>
