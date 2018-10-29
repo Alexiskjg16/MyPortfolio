@@ -20,8 +20,9 @@ class Footer extends Component {
                     <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                     </section>
                     </section>
-                
+                    <section>
                     <h6 className="copyright">Made with love and REACT at Suncoast Developers Guild 2018</h6>
+                    </section>
             </div>
         )
     }
