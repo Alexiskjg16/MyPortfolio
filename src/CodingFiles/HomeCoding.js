@@ -10,7 +10,7 @@ import ngTacos from '../Pictures/ngtacos.png';
 class HomeCoding extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <section>
                     <NavBar />
                 </section>

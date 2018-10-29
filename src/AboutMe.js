@@ -9,14 +9,14 @@ import Footer from './FooterContact';
 class AboutMe extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <section>
                     <NavBar />
                 </section>
                 <section className="ImageSection">
                     <img src={spainProfile} alt="visitingSpain"  className="idvPics"/>
-                    <img src={kissHappy} alt="my son" className="idvPics" />
-                    <img src={familyseattle} alt="my family" className="idvPics" />
+                    <img src={kissHappy} alt="my son" className="kissHappy" />
+                    <img src={familyseattle} alt="my family" className="familySeattle" />
                 </section>
                     <h1 className="Catchphrase"> "I didn't always know what I wanted to do, but I knew the kind of woman
                     I wanted to be." - Diane Von Furstenberg</h1>

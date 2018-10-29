@@ -11,7 +11,7 @@ import iCantEven from'../Pictures/I-Cant-Even.gif';
 class HomeBlog extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <section>
                     < NavBar />
                 </section>

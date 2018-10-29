@@ -6,7 +6,7 @@ import Footer from './FooterContact.js'
 class HomePage extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <section>
                     <NavBar />
                 </section>
