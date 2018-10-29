@@ -59,8 +59,14 @@
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   width: 100%;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+.DirectLinks {
+  padding: 0.5em;
 }
 
 .LinksToStuff {
@@ -180,6 +186,8 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .MainBlogTitle {
@@ -212,7 +220,7 @@
 
 .blogImages {
   display: flex;
-  width: 70%;
+  width: 60%;
   height: 70%;
 }
 
@@ -222,17 +230,17 @@
 }
 
 .codeCamp {
-   width: 40%;
+   width: 50%;
 }
 
 .cantEven {
-  width: 40%;
+  width: 60%;
+  margin-top:0.5em;
 }
 
 .bloggerHeads {
   display: flex;
   flex-direction: column;  
-  border: 1px solid green;
   justify-content: center;
   align-items: center;
   width: 50%;

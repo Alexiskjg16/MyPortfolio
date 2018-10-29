@@ -44,7 +44,7 @@ class HomeBlog extends Component {
             />
             <Link to={"/BlogPosts/Sept2418"} className="BlogLinks">
               {" "}
-              Lexy's CodeCamp Survival Guide{" "}
+              Code-Camp Survival Guide{" "}
             </Link>
           </section>
           <section className="bloggerHeads">
