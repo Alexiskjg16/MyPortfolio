@@ -179,9 +179,7 @@
 .MainBlogPage {
   display: flex;
   justify-content: center;
-  margin-left: 2em;
   flex-direction: row;
-  font-size: 4em;
 }
 
 .MainBlogTitle {
@@ -206,7 +204,7 @@
   margin-right: 10%;
 }
 .BlogLinks {
-  font-size: 0.4em;
+  font-size: 2em;
   margin: 1em;
   font-family: "Georgia", serif;
   color: black;
@@ -214,15 +212,30 @@
 
 .blogImages {
   display: flex;
-  width: 8em;
-  height: 5em;
+  width: 70%;
+  height: 70%;
+}
+
+.onlyGirl {
+  display: flex;
+  width: 50%;
+}
+
+.codeCamp {
+   width: 40%;
+}
+
+.cantEven {
+  width: 40%;
 }
 
 .bloggerHeads {
   display: flex;
-  flex-direction: column;
-  padding: 1.5em;
-  margin-left: -2em;
+  flex-direction: column;  
+  border: 1px solid green;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 /*Resume Page*/
