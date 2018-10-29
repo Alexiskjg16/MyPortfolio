@@ -174,8 +174,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 3em;
-  margin-bottom: 3em;
 }
 
 .MainBlogTitle {
@@ -303,6 +301,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin-bottom: auto;
   }
 
   .Myskills {
@@ -315,6 +314,7 @@
   .resumeCont {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
   }
 
   .Catchphrase {
