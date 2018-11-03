@@ -236,6 +236,11 @@
 
 /*Resume Page*/
 
+.ResumeGoogle {
+  text-decoration: none;
+  text-align: center;
+}
+
 .ResumeDetails {
   display: flex;
   align-items: flex-start;
