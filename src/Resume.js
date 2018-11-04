@@ -16,8 +16,8 @@ class Resume extends Component {
                 </section>
                 <h3 className="ResumeGoogle">Find a Hardcopy of My Resume Here On <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Docs </a></h3>
                 <span className="Skillset"> Tech Skills: </span>
-                    <span className="Myskills"> React.js, Git, JavaScript, HTML, CSS, Angular.js, Vue.js, VisualStudio, 
-                    .NET, C#, Flexbox, Trello, ChromeCast, GitHub, Hyroku </span>
+                    <span className="Myskills"> ReactJS, Git, JavaScript, HTML, CSS, AngularJS, VueJS, VisualStudio, 
+                    .NET, C#, Flexbox, Trello, ChromeCast, GitHub, Heroku </span>
                     <span className="Skillset"> Interpersonal Skills: </span>
                     <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
                     Ability to Take Feedback and Desire to Learn, Previously CPR Certified</span>
