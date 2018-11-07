@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import familyseattle from './Pictures/familyseattle.jpg';
+import codingimage from './Pictures/codingimages.jpg';
 import kissHappy from './Pictures/kissHappy.jpg';
 import spainProfile from './Pictures/spainProfile.jpg';
 import NavBar from './NavBar';
@@ -14,9 +14,9 @@ class AboutMe extends Component {
                     <NavBar />
                 </section>
                 <section className="ImageSection">
+                    <img src={codingimage} alt="LoveTheCode" className="codingimage"/>
                     <img src={spainProfile} alt="visitingSpain"  className="idvPics"/>
                     <img src={kissHappy} alt="my son" className="kissHappy" />
-                    <img src={familyseattle} alt="my family" className="familySeattle" />
                 </section>
                     <h1 className="Catchphrase"> "I didn't always know what I wanted to do, but I knew the kind of woman
                     I wanted to be." - Diane Von Furstenberg</h1>

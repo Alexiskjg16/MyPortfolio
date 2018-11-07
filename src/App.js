@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import HomePage from './HomePage';
 import AboutMe from './AboutMe';
+import ContactMe from './ContactMe';
 import HomeCoding from './CodingFiles/HomeCoding';
 import HomeBlog from './BlogPosts/HomeBlog';
 import Sept518 from './BlogPosts/Sept518';
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/" exact component={HomePage} />
             <Route path="/HomePage" exact component={HomePage} />
             <Route path="/AboutMe" exact component={AboutMe} />
+            <Route path="/ContactMe" exact component={ContactMe} />
             <Route path="/CodingExamples" exact component={HomeCoding} />
             <Route path="/BlogPosts" exact component={HomeBlog} />
             <Route path="/BlogPosts/Sept518" exact component={Sept518} />
