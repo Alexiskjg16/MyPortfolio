@@ -26,7 +26,9 @@ class AboutMe extends Component {
                         I enjoy traveling (pictured is my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
                         and am always pumped for the next challenge. </p>
                     <p className="AboutParagraph"> Interests: Dungeons and Dragons, hiking, boating, driving backroads, Pinterest,
-                    reading books from Moby Dick to Looking for Alaska, movies from Dead Poets Society to Howl's Moving Castle. </p>
+                    reading books - from Moby Dick to Looking for Alaska; and movies - from Dead Poets Society to Howl's Moving Castle. </p>
+                    <p className="AboutParagraph"> Inspirations: Elle Woods(I know it's a character, but hey). Cara Alwell Leyba, Rosa Parks,
+                    Ada Lovelace, Joan Ball.</p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
                      some hopefully interesting and humorous code-related blog posts, or if you are interested, take a 
                      peek at my resume! </p>

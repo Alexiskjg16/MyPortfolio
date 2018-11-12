@@ -19,7 +19,7 @@ class HomeCoding extends Component {
                      <img src={TBDV} alt="SupportGroup" className="codeImages" />
                      <section className="pageInfo">
                      <a href="http://tbdvsupport.surge.sh/" target="_blank" rel="noopener noreferrer" className="CodeList">Capstone - TBDVSupport </a>
-                     <h1>React.JS</h1>
+                     <h1>React.JS with C#</h1>
                      <a href="https://github.com/Alexiskjg16/THECapstoneProject" target="_blank" rel="noopener noreferrer" className="CodeList">What's the Code?</a>
                      </section>
                     </li> 

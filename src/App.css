@@ -3,29 +3,35 @@
 .App {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgb(255, 199, 227), rgb(255, 65, 144));
+  background: rgb(255, 199, 227);
   font-family: "Georgia", serif;
   height: 150%;
+  margin-left: 14%;
 }
+
+
 
 /* NavBar*/
 
 .NavBar {
+  background-color: rgb(255, 199, 227);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: nowrap;
   font-family: "Clicker Script";
-  width: 95%;
-  height: auto;
-  margin-top: 0.5em;
+  width: 14%;
+  height: 100%;
+  margin-left: -14%;
   justify-content: center;
+  align-content: space-between;
+  position: fixed;
 }
 
 .navLinks {
   text-decoration: none;
   color: black;
-  width: 25%;
   font-size: 2.5em;
-  padding: 0.5em;
+  padding-left: .2em;
 }
 
 .MyName {
@@ -37,6 +43,7 @@
   margin-top: 10%;
   margin-bottom: 10%;
   align-content: center;
+  /*text-transform: uppercase;*/
 }
 
 .MyTitle {
@@ -97,12 +104,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  text-decoration: none;
   margin: 3em;
 }
 
 .contactLinks {
-  text-decoration: none;
   color: black;
   font-family: "Georgia", serif;
   font-size: .5em;
@@ -119,7 +124,7 @@
   display: flex;
   flex-flow: row wrap;
   margin-top: 3em;
-  margin-left: 3em;
+  margin-left: 2.5em;
   width: 100%;
 }
 
@@ -127,21 +132,24 @@
   display: flex;
   width: 40%;
   height: 40%;
-  padding: 1em;
+  margin: 1em;
+  border: .05em solid rgb(184, 183, 183);
 }
 
 .codingimage {
   display: flex;
   width: 26.75%;
   height: 26.75%;
-  padding: 1em;
+  margin: 1em;
+  border: .05em solid rgb(184, 183, 183);
 }
 
 .kissHappy {
   display: flex;
   height: 10%;
   width: 20%;
-  padding: 1em;
+  margin: 1em;
+  border: .05em solid rgb(184, 183, 183);
 }
 
 .Catchphrase {
@@ -194,6 +202,7 @@
   width: 40%;
   height: 40%;
   list-style: none;
+  border: .05em solid rgb(184, 183, 183);
 }
 
 /*BlogBody*/
@@ -235,20 +244,28 @@
 .blogImages {
   display: flex;
   width: 60%;
+  padding: 0.3em;
+  background-color: rgb(197, 196, 196); 
 }
 
 .onlyGirl {
   display: flex;
   width: 50%;
+  padding: 0.3em;
+  background-color: rgb(197, 196, 196); 
 }
 
 .codeCamp {
    width: 50%;
+   padding: 0.3em;
+  background-color: rgb(197, 196, 196); 
 }
 
 .cantEven {
   width: 60%;
   margin-top:0.5em;
+  padding: 0.3em;
+  background-color: rgb(197, 196, 196); 
 }
 
 .bloggerHeads {
