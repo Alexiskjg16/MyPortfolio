@@ -22,7 +22,7 @@ class Resume extends Component {
                     <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
                     Ability to Take Feedback and Desire to Learn, Previously CPR Certified</span>
                     <span className="Skillset"> Participated In: </span>
-                    <span className="Myskills"> Various Meetups, Code For America Hackathon 2018, Multiple Personal Projects</span>
+                    <span className="Myskills"> Various tech Meetups, Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
                 <section>
                     <span className="Skillset"> Education:</span>
                     <p className="Myskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>

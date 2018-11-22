@@ -6,32 +6,33 @@
   background: rgb(255, 223, 239);
   font-family: "Georgia", serif;
   height: 150%;
-  margin-top: 3em;
+  padding-top: 5.5em;
 }
 
 
 
 /* NavBar*/
 
-.NavBar {
-  background-color: rgb(255, 223, 239);
+  .navbar-nav {
+  background-color: #FFDFEF;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   font-family: "Clicker Script";
+  list-style: none;
   width: 100%;
-  padding-top: .5em;
-  margin-top: -3em;
   justify-content: center;
-  align-content: space-between;
-  position: fixed;
+  margin: -1em;
+  margin-top: -11.5em;
 }
 
-.navLinks {
+.nav-link {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 2.5em;
-  padding-left: 1em;
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .MyName {
@@ -96,6 +97,7 @@
 .copyright {
   display: flex;
   justify-content: center;
+  padding-bottom: 2em;
 }
 
 /*ContactPage*/
@@ -244,27 +246,27 @@
 .blogImages {
   display: flex;
   width: 60%;
-  padding: 0.3em;
+  padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
 .onlyGirl {
   display: flex;
   width: 50%;
-  padding: 0.3em;
+  padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
 .codeCamp {
    width: 50%;
-   padding: 0.3em;
-  background-color: rgb(197, 196, 196); 
+   padding: 0.1em;
+   background-color: rgb(197, 196, 196); 
 }
 
 .cantEven {
   width: 60%;
   margin-top:0.5em;
-  padding: 0.3em;
+  padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
@@ -303,7 +305,8 @@
   display: flex;
   justify-content: space-around;
   size: 3em;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .Skillset {
@@ -325,11 +328,13 @@
 
 @media (max-width: 600px) {
 
-  .NavBar {
-    display: flex;
-    flex-direction: row;
-    font-size: 0.4em;
-    margin-top: .5em;
+  .App {
+    margin-top: 0em;
+  }
+
+  .navbar {
+    background: rgb(255, 223, 239);
+    margin-top: -5.5em;
   }
 
   .DirectLinks {
