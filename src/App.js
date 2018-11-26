@@ -11,6 +11,7 @@ import Sept1118 from './BlogPosts/Sept1118';
 import Sept2418 from './BlogPosts/Sept2418';
 import Oct2218 from './BlogPosts/Oct2218';
 import Resume from './Resume';
+import Nov2618 from './BlogPosts/Nov2618';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path="/BlogPosts/Sept1118" exact component={Sept1118} />
             <Route path="/BlogPosts/Sept2418" exact component={Sept2418} />
             <Route path="/BlogPosts/Oct2218" exact component={Oct2218} />
+            <Route path="/BlogPosts/Nov2618" exact component={Nov2618} />
             <Route path="/Resume" exact component={Resume} />
           </Switch>
         </div>
