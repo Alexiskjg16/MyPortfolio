@@ -13,8 +13,13 @@
 
 /* NavBar*/
 
+.navbar-toggler {
+  margin-top: -5em;
+  width: 5em;
+}
+
   .navbar-nav {
-  background-color: #FFDFEF;
+  background-color: rgb(255, 223, 239);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -211,8 +216,8 @@
 
 .MainBlogPage {
   display: flex;
-  justify-content: center;
   flex-direction: row;
+  margin-left: 3em;
 }
 
 .MainBlogTitle {
@@ -237,52 +242,60 @@
   margin-right: 10%;
 }
 .BlogLinks {
+  display: flex;
+  flex-direction: column;
   font-size: 2em;
   margin: 1em;
+  padding-top: 1em;
   font-family: "Georgia", serif;
   color: black;
 }
 
 .blogImages {
   display: flex;
-  width: 60%;
+  width: 90%;
   padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
 .onlyGirl {
   display: flex;
-  width: 50%;
+  width: 60%;
   padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
 .codeCamp {
-   width: 50%;
+   width: 38%;
    padding: 0.1em;
    background-color: rgb(197, 196, 196); 
 }
 
 .cantEven {
-  width: 60%;
-  margin-top:0.5em;
+  width: 120%;
   padding: 0.1em;
   background-color: rgb(197, 196, 196); 
 }
 
 .getBetterFriends {
-  width: 55%;
+  width: 30%;
   margin-top:0.5em;
   padding: 0.1em;
   background-color: rgb(197, 196, 196);
 }
 
+.theWeirdBlogPost {
+  display: flex;
+  flex-direction: column; 
+  margin-left: -27em;
+  margin-bottom: 2em;
+}
+
 .bloggerHeads {
   display: flex;
-  flex-direction: column;  
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  flex-direction: column; 
+  margin-left: 2em;
+  margin-bottom: 2em;
 }
 
 /*Resume Page*/

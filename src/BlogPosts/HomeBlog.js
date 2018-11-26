@@ -18,37 +18,37 @@ class HomeBlog extends Component {
         <h1 className="MainBlogTitle"> Blog Posts </h1>
         <section className="MainBlogPage">
           <section className="bloggerHeads">
-            <img src={suncoastKids} alt="Group Image" className="onlyGirl" />
             <Link to={"/BlogPosts/Sept518"} className="BlogLinks">
+            <img src={suncoastKids} alt="theGroup" className="onlyGirl" />
               {" "} Being the Only Girl{" "}
             </Link>
           </section>
-          <section className="bloggerHeads">
-            <img src={imposterSyndrome} alt="imposter Syndrome" className="blogImages" />
+          <section className="bloggerHeads">    
             <Link to={"/BlogPosts/Sept1118"} className="BlogLinks">
+            <img src={imposterSyndrome} alt="imposter Syndrome" className="blogImages" />
               {" "} The Imposter Syndrome{" "}
             </Link>
           </section>
         </section>
         <section className="MainBlogPage">
           <section className="bloggerHeads">
-            <img src={classroomImage} alt="classroom Image" className="codeCamp" />
             <Link to={"/BlogPosts/Sept2418"} className="BlogLinks">
+            <img src={classroomImage} alt="classroom" className="codeCamp" />
               {" "} Code-Camp Survival Guide{" "}
             </Link>
           </section>
-          <section className="bloggerHeads">
+          <section className="theWeirdBlogPost">
+            <Link to={"/BlogPosts/Oct2218"} className="BlogLinks"> 
             <img src={iCantEven} alt="I Can't Even" className="cantEven" />
-            <Link to={"/BlogPosts/Oct2218"} className="BlogLinks">
               {" "} I Can't Even!{" "}
             </Link>
           </section>
           </section>
           <section className="MainBlogPage">
           <section className="bloggerHeads">
-          <img src={GetBetterFriends} alt="Get Better Friends" className="getBetterFriends" />
            <Link to={"/BlogPosts/Nov2618"} className="BlogLinks">
-           {" "} Get Better Friends {" "}
+           <img src={GetBetterFriends} alt="Get Better Friends" className="getBetterFriends" />
+           {" "} You Need Better Friends {" "}
            </Link>
           </section>
         </section>

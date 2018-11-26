@@ -19,19 +19,19 @@ class AboutMe extends Component {
                     <img src={kissHappy} alt="my son" className="kissHappy" />
                 </section>
                     <h1 className="Catchphrase"> "I didn't always know what I wanted to do, but I knew the kind of woman
-                    I wanted to be." - Diane Von Furstenberg</h1>
+                       I wanted to be." - Diane Von Furstenberg</h1>
                     <p className="AboutParagraph"> My name is Alexis Grisham. Thanks to Suncoast Developers Guild and some 
                         amazing instructors, friends, and family, I am leaping headfirst into the world of full-stack web development.
                         I am a single mom to the most adorable little boy you'll ever meet, I love all forms of art,
                         I enjoy traveling (pictured is my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
                         and am always pumped for the next challenge. </p>
                     <p className="AboutParagraph"> Interests: Dungeons and Dragons, hiking, boating, driving backroads, Pinterest,
-                    reading books - from Moby Dick to Looking for Alaska; and movies - from Dead Poets Society to Howl's Moving Castle. </p>
-                    <p className="AboutParagraph"> Inspirations: Elle Woods(I know it's a character, but hey). Cara Alwell Leyba, Rosa Parks,
-                    Ada Lovelace, Joan Ball.</p>
+                        reading books - from Moby Dick to Looking for Alaska; and movies - from Dead Poets Society to Howl's Moving Castle. </p>
+                    <p className="AboutParagraph"> Inspirations: Elle Woods(I know she's a character, but hey). Cara Alwell Leyba, 
+                        Rosa Parks, Joan Ball.</p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
-                     some hopefully interesting and humorous code-related blog posts, or if you are interested, take a 
-                     peek at my resume! </p>
+                        some hopefully interesting and humorous code-related blog posts, or if you are interested, take a 
+                        peek at my resume! </p>
                 <section>
                     <Footer />
                 </section>
