@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Footer from '../FooterContact.js'
+import Footer from '../FooterContact.js';
+import Subscribe from "./Subscribe";
 import '../App.css';
 import NavBar from '../NavBar';
 
@@ -67,6 +68,9 @@ made it past the second week of school. </p>
                 90s-2000s Rap & R&B is commonly known in the developer community as the best music to code to. I don’t
                 know if it’s the beat, the mood, or the fact that most of us are around millennial age anyways, but I can
 definitely get more work done with that music versus say, classical or other ‘brainfood’ music. </p>
+                <section>
+                    <Subscribe />
+                </section>
                 <section>
                     <Footer />
                 </section>

@@ -71,6 +71,7 @@
 .DirectLinks {
   padding: 0.5em;
   font-size: 400%;
+
 }
 
 .LinksToStuff {
@@ -104,6 +105,7 @@
   justify-content: center;
   padding-bottom: 2em;
 }
+
 
 /*ContactPage*/
 
@@ -212,7 +214,7 @@
   border: .05em solid rgb(184, 183, 183);
 }
 
-/*BlogBody*/
+/*Blog*/
 
 .MainBlogPage {
   display: flex;
@@ -241,6 +243,7 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
 .BlogLinks {
   display: flex;
   flex-direction: column;
@@ -298,7 +301,17 @@
   margin-bottom: 2em;
 }
 
-/*Resume Page*/
+.Subscribe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: .01em solid black;
+  padding: 0.5em;
+  width: 15em;
+  margin-left: 38em;
+}
+
+/*Resume*/
 
 .ResumeGoogle {
   text-decoration: none;

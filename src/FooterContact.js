@@ -11,13 +11,13 @@ class Footer extends Component {
                 </section>
                 <section className="ContactMe">
                 <section className="DirectLinks">
-                    <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer"><em className="fab fa-twitter-square"></em></a>
                     </section>
                     <section className="DirectLinks">
-                    <a href="https://www.linkedin.com/in/alexis-grisham-434401169/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/alexis-grisham-434401169/" target="_blank" rel="noopener noreferrer"><em className="fab fa-linkedin"></em></a>
                     </section>
                     <section className="DirectLinks">
-                    <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer"><em className="fab fa-instagram"></em></a>
                     </section>
                     </section>
                     <section>

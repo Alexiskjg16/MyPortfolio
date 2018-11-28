@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar";
+import Subscribe from "./Subscribe";
 import Footer from "../FooterContact";
 import suncoastKids from "../Pictures/suncoastkids.jpg";
 import imposterSyndrome from "../Pictures/imposterSyndrome.jpeg";
@@ -16,6 +17,9 @@ class HomeBlog extends Component {
           <NavBar />
         </section>
         <h1 className="MainBlogTitle"> Blog Posts </h1>
+        <section>
+          <Subscribe />
+        </section>
         <section className="MainBlogPage">
           <section className="bloggerHeads">
             <Link to={"/BlogPosts/Sept518"} className="BlogLinks">

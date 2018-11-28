@@ -25,8 +25,6 @@ class AboutMe extends Component {
                         I am a single mom to the most adorable little boy you'll ever meet, I love all forms of art,
                         I enjoy traveling (pictured is my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
                         and am always pumped for the next challenge. </p>
-                    <p className="AboutParagraph"> Interests: Dungeons and Dragons, hiking, boating, driving backroads, Pinterest,
-                        reading books - from Moby Dick to Looking for Alaska; and movies - from Dead Poets Society to Howl's Moving Castle. </p>
                     <p className="AboutParagraph"> Inspirations: Elle Woods(I know she's a character, but hey). Cara Alwell Leyba, 
                         Rosa Parks, Joan Ball.</p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
