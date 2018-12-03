@@ -3,7 +3,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  background: rgb(255, 223, 239);
+  background: rgb(255, 240, 250);
   font-family: "Georgia", serif;
   height: 150%;
   padding-top: 5.5em;
@@ -19,7 +19,7 @@
 }
 
   .navbar-nav {
-  background-color: rgb(255, 223, 239);
+  background-color: rgb(255, 240, 250);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;

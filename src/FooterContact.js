@@ -21,7 +21,7 @@ class Footer extends Component {
                     </section>
                     </section>
                     <section>
-                    <h6 className="copyright">Made with love and REACT 2018</h6>
+                    <h6 className="copyright">Made with love, REACT, and C# -2018-</h6>
                     </section>
             </div>
         )

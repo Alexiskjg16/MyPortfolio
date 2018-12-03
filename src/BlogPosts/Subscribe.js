@@ -16,11 +16,28 @@ class SubscribeButton extends Component {
         
             handleSubmit = (e) => {
                 e.preventDefault()
-                let SubscribeData = {
+                let subscribeData = {
                     "Name": this.state.name,
                     "Email": this.state.email,
                    
                 }
+            
+            fetch(`http://localhost:5000"/RSS/content/add`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json; charset=utf-8"
+                },
+                body: JSON.stringify(subscribeData)
+            })
+                .then(resp => resp.json())
+                .then(subscribeData => {
+                    console.log(subscribeData)
+                    this.props.fetchQuestions()
+                    this.setState({
+                        name: "",
+                        email: ""
+                    })
+                })
             }
 
     render() {
