@@ -12,23 +12,31 @@ class HomeBlog extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "loading...",
-      lastUpdateTime: new Date()
+      title: "",
+      lastUpdateTime: new Date(),
+      blogs: []
     };
   }
 
   componentDidMount() {
-    var Feed = require("rss-to-json");
+    const _feedUrl =
+      "https://cors-anywhere.herokuapp.com/https://medium.com/feed/@alexiskjg16";
 
-    Feed.load(
-      "https://cors-anywhere.herokuapp.com/https://medium.com/feed/@alexiskjg16",
-      function(err, rss) {
-        console.log(rss);
-        this.setState({
-          title: rss.items[0].title,
+    var parseString = require("xml2js").parseString;
+    fetch(_feedUrl)
+      .then(resp => {
+        console.log({ resp });
+        return resp.text();
+      })
+      .then(body => {
+        console.log({ body });
+        parseString(body, (err, result) => {
+          console.log({ blogs: result.rss.channel[0].item });
+          this.setState({
+            blogs: result.rss.channel[0].item
+          });
         });
-      }
-    );
+      });
   }
 
   render() {
@@ -38,7 +46,6 @@ class HomeBlog extends Component {
           <NavBar />
         </section>
         <h1 className="MainBlogTitle"> Blog Posts</h1>
-        <section>{this.state.title}</section>
         <section className="MainBlogPage">
           <section className="bloggerHeads">
             <Link to={"/BlogPosts/Sept518"} className="BlogLinks">
