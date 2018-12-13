@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js'
-import Subscribe from "./Subscribe";
 import '../App.css'; import NavBar from '../NavBar';
 
 
@@ -36,9 +35,6 @@ class Oct2218 extends Component {
                 able to be an extra rubber duck to these students.
                  All I ask is for good thoughts and vibes from ya’ll as I keep plugging away! Hopefully more updates come
                 soon :) </p>
-                <section>
-                    <Subscribe />
-                </section>
                 <section>
                     <Footer />
                 </section>

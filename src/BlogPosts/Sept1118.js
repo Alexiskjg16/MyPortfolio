@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js';
-import Subscribe from "./Subscribe";
 import '../App.css';
 import NavBar from '../NavBar';
 
@@ -34,9 +33,6 @@ class Sept1118 extends Component {
                  We have proven, we are not that. We have shown our worth is in more than just our fingertips, more than our smarts. It is in the 
                  initiative. It is in the drive to complete the task, and complete it wholly. We are not imposters, on any level.
                  </p>
-                 <section>
-                    <Subscribe />
-                </section>
                  <section>
                     <Footer />
                 </section>

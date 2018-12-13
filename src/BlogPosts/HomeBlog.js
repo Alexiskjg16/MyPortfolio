@@ -7,7 +7,6 @@ import imposterSyndrome from "../Pictures/imposterSyndrome.jpeg";
 import classroomImage from "../Pictures/classroomImage.jpeg";
 import iCantEven from "../Pictures/I-Cant-Even.gif";
 import GetBetterFriends from "../Pictures/getbetterfriends.jpg";
-import Medium from "../Pictures/medium.jpg";
 
 class HomeBlog extends Component {
   constructor(props) {

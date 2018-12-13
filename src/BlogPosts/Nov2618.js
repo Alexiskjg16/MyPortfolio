@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js';
 import '../App.css'; import NavBar from '../NavBar';
-import Subscribe from "./Subscribe";
 
 
 class Nov2618 extends Component {
@@ -42,9 +41,6 @@ class Nov2618 extends Component {
                     call to action is to examine the people you are around on a daily basis, and if they are helping improve your life 
                     or impeding it. Take some time to think it over, and have a happy Monday!
                 </p>
-                <section>
-                 <Subscribe />
-                </section>
                 <section>
                     <Footer />
                 </section>
