@@ -363,20 +363,19 @@
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 414px) {
 
-  .App {
-    margin-top: 0em;
+
+  .navbar-nav {
+    background: rgb(255, 240, 250);
   }
 
-  .navbar {
-    background: rgb(255, 223, 239);
-    margin-top: -5.5em;
+  .nav-item {
+    padding-top: 4em;
+    padding-left: 2em;
+    font-size: 0.5em;
   }
 
-  .DirectLinks {
-    width: 25%;
-  }
 
   .indvLi {
     display: flex;
