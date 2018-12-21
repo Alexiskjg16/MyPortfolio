@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js';
 import '../App.css'; import NavBar from '../NavBar';
+import { Link } from "react-router-dom";
 
 
 class Nov2618 extends Component {
@@ -41,6 +42,9 @@ class Nov2618 extends Component {
                     call to action is to examine the people you are around on a daily basis, and if they are helping improve your life 
                     or impeding it. Take some time to think it over, and have a happy Monday!
                 </p>
+                <section> 
+                    <Link to={"/BlogPosts"} className="AverageHomeLink"> Back to Blog </Link>
+                </section>
                 <section>
                     <Footer />
                 </section>

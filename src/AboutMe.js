@@ -25,10 +25,10 @@ class AboutMe extends Component {
                         I am a single mom to the most adorable little boy you'll ever meet, I love all forms of art,
                         I enjoy traveling (pictured is my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
                         and am always pumped for the next challenge. </p>
-                    <p className="AboutParagraph"> Inspirations: Elle Woods(I know she's a character, but hey). Cara Alwell Leyba, 
+                    <p className="AboutParagraph"> Inspirations: Elle Woods(I know she's ficticious, but hey). Cara Alwell Leyba, 
                         Rosa Parks, Joan Ball.</p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
-                        some hopefully interesting and humorous code-related blog posts, or if you are interested, take a 
+                        some hopefully interesting and humorous code-related blog posts, or if you are curious, take a 
                         peek at my resume! </p>
                 <section>
                     <Footer />

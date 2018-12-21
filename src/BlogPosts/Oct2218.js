@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js'
+import { Link } from "react-router-dom";
 import '../App.css'; import NavBar from '../NavBar';
 
 
@@ -35,6 +36,9 @@ class Oct2218 extends Component {
                 able to be an extra rubber duck to these students.
                  All I ask is for good thoughts and vibes from ya’ll as I keep plugging away! Hopefully more updates come
                 soon :) </p>
+                <section> 
+                    <Link to={"/BlogPosts"} className="AverageHomeLink"> Back to Blog </Link>
+                </section>
                 <section>
                     <Footer />
                 </section>

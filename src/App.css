@@ -368,14 +368,17 @@
 
   .navbar-nav {
     background: rgb(255, 240, 250);
+    margin-top: 0.5em;
   }
 
   .nav-item {
-    padding-top: 4em;
     padding-left: 2em;
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
 
+  .nav-link {
+    padding: 0em;
+  }
 
   .indvLi {
     display: flex;
@@ -415,6 +418,8 @@
 
   .AboutParagraph {
     font-size: 1.5em;
+    width: 90%;
+    margin-left: 1em;
   }
 
   .BlogLinks {
@@ -468,5 +473,9 @@
     margin-bottom: 3em;
   }
 
+  .cantEven {
+    width: 27%;
+    margin-left: 51em;
+  }
 
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Footer from '../FooterContact.js';
 import '../App.css'; import NavBar from '../NavBar';
+import { Link } from "react-router-dom";
+
 
 
 class Sept518 extends Component {
@@ -27,6 +29,9 @@ class Sept518 extends Component {
                     experience here, even before I saw the statistics. I came in full walls up, in fight mode to defend my femininity. But I am slowly relaxing and recognizing that men CAN be respectful adults, if you
                     hold them up to that standard. I realize that still not everyone is the same, and I have been very lucky in my exposure to these gentlemen, but it came at a perfect time in my life that I needed that
                     faith restored. I can only hope my future endeavours are as fruitful, and a huge shoutout to my Cohort-X! </p>
+                    <section> 
+                    <Link to={"/BlogPosts"} className="AverageHomeLink"> Back to Blog </Link>
+                </section>
                 <section>
                     <Footer />
                 </section>
