@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './NavBar.js';
+import { Link } from "react-router-dom";
+
 
 class HomePage extends Component {
     render() {
         return (
             <div>
                 <section>
-                    <NavBar />
-                </section>
-                <section>
+                    <header className="NewBanner"> 2019 </header>
                     <header className="MyName"> Alexis K. Grisham </header>
-                    <h1 className="MyTitle"> Full-Stack Developer </h1>
+                    <h1 className="MyTitle"> Full-Stack Developer - Data Analyst </h1>
+                </section>
+                <section className="HomeNav">
+                <Link to={"/AboutMe"} className="Leftside"> About Me </Link>
+                <Link to={"/BlogPosts"} className="Rightside"> Blog Articles </Link>
+                <Link to={"/CodingExamples"} className="Leftside"> Codes </Link>
+                <Link to={"/ContactMe"} className="Rightside"> Contact Me </Link>
                 </section>
                 <section className="ContactMe">
                 <section className="DirectLinks">

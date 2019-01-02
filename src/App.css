@@ -9,7 +9,35 @@
   padding-top: 5.5em;
 }
 
+.NewBanner {
+  background: black;
+  color: white;
+  font-family: "Clicker Script";
+  text-align: center;
+  font-size: 5em;
+}
 
+.HomeNav {
+display: flex;
+flex-direction: column;
+font-size: 3em;
+font-family: "Georgia", serif;
+font-style: none;
+color: white;
+}
+
+.Leftside {
+ background: rgb(68, 68, 68);
+ width: 40%;
+ padding-left: 2em;
+}
+
+.Rightside {
+margin-left: 60%; 
+background: rgb(68, 68, 68);
+width: 50%;
+padding-left: 2em;
+}
 
 /* NavBar*/
 
@@ -42,7 +70,7 @@
 
 .MyName {
   display: flex;
-  font-size: 750%;
+  font-size: 800%;
   font-family: "Clicker Script";
   font-style: bold;
   justify-content: center;
@@ -54,12 +82,13 @@
 
 .MyTitle {
   display: flex;
-  font-size: 650%;
+  font-size: 400%;
   font-family: "Clicker Script";
   justify-content: center;
   margin-bottom: 2em;
   align-content: center;
 }
+
 .ContactMe {
   display: flex;
   flex-direction: row;
