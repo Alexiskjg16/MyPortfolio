@@ -16,14 +16,14 @@ class Resume extends Component {
                 </section>
                 <h3 className="ResumeGoogle">Find a Hardcopy of My Resume Here On <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Docs </a></h3>
                 <span className="Skillset"> Tech Skills: </span>
-                    <span className="Myskills"> ReactJS, Git, JavaScript, HTML, CSS, AngularJS, VueJS, VisualStudio, 
-                    .NET, C#, Flexbox, Trello, ChromeCast, GitHub, Heroku </span>
+                    <span className="Myskills"> ReactJS, Git, SQL, JavaScript, HTML, CSS, AngularJS, VueJS, VisualStudio, 
+                    .NET, C#, Flexbox, Trello, ChromeCast, Crystal Reports, GitHub, Heroku </span>
                     <span className="Skillset"> Interpersonal Skills: </span>
                     <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
                     Ability to Take Feedback and Desire to Learn, Previously CPR Certified</span>
                     <span className="Skillset"> Participated In: </span>
-                    <span className="Myskills"> Various tech Meetups, Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
-                <section>
+                    <span className="Myskills"> Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
+                 <section>
                     <span className="Skillset"> Education:</span>
                     <p className="Myskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>
                     <p className="Myskills"> A three-month intensive program that teaches students client-side (front-end) technology: HTML, 
@@ -42,7 +42,7 @@ class Resume extends Component {
                     <p className="Myskills">RadioShack Leavenworth KS(2013) -- Sales Associate -- One Year </p>
                     <p className="Myskills"> Sold and activated cell phones and plans, debugged electronic issues, personally reorganized and cleaned
                     stock room for opimal usage</p>
-                </section>
+                 </section>
                 <section>
                     <Footer />
                 </section>
