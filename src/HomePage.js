@@ -8,15 +8,15 @@ class HomePage extends Component {
         return (
             <div>
                 <section>
-                    <header className="NewBanner"> 2019 </header>
                     <header className="MyName"> Alexis K. Grisham </header>
-                    <h1 className="MyTitle"> Full-Stack Developer - Data Analyst </h1>
+                    <h1 className="MyTitle"> Full-Stack Developer </h1>
                 </section>
                 <section className="HomeNav">
                 <Link to={"/AboutMe"} className="Leftside"> About Me </Link>
                 <Link to={"/BlogPosts"} className="Rightside"> Blog Articles </Link>
                 <Link to={"/CodingExamples"} className="Leftside"> Codes </Link>
                 <Link to={"/ContactMe"} className="Rightside"> Contact Me </Link>
+                <Link to={"/Resume"} className="Leftside"> Resume </Link>
                 </section>
                 <section className="ContactMe">
                 <section className="DirectLinks">
