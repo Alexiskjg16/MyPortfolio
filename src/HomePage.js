@@ -24,7 +24,7 @@ class HomePage extends Component {
             <div>
                 <section>
                     <header className="MyName"> Alexis K. Grisham </header>
-                    <h1 className="MyTitle"> Full-Stack Developer </h1>
+                    <h1 className="MyTitle"> Full-Stack Developer, boyMom, Paralian. </h1>
                 </section>
                 <section className="HomeNav">
                 <Link to={"/AboutMe"} className="Leftside"> About Me </Link>

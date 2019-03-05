@@ -23,7 +23,11 @@ flex-direction: column;
 font-size: 3em;
 font-family: "Georgia", serif;
 font-style: none;
-color: white;
+}
+
+.Leftside:Hover , .Rightside:Hover , .LeftsideTwo:Hover , .RightsideTwo:Hover , .LeftsideThree:Hover {
+color: pink;
+text-decoration: none;
 }
 
 .Leftside {
