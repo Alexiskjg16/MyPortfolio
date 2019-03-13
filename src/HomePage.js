@@ -15,7 +15,16 @@ class HomePage extends Component {
        this.setState({
      visit:this.state.visit + 1})
     
- 
+    //  handleChange = (question, i) => {
+    //     console.log({ question });
+    //     fetch(`${process.env.REACT_APP_API_URL}Victory/${question.id}`, {
+    //         method: "PATCH",
+    //     })
+    //         .then(resp => resp.json())
+    //         .then(() => {
+    //             this.props.fetchQuestions();
+    //         });
+    // };
 
 }
 
@@ -33,10 +42,12 @@ class HomePage extends Component {
                 <Link to={"/ContactMe"} className="RightsideTwo"> Contact Me </Link>
                 <Link to={"/Resume"} className="LeftsideThree"> Resume </Link>
                 </section>
-                {/* <section className="numberz">
-                    <button onClick={this.SayHello}> Say Hi ++</button>
-                    <span>{this.state.visit}</span>
-                </section> */}
+                {/* <section>
+                          <button className="lovebutton" onClick={() => this.handleChange(questions, i)}>
+                             <span role="img" aria-label="heart">💗</span> Cheers to You!
+                          </button>
+                           <span><h1>{questions.upvoteCount}</h1></span>
+                        </section> */}
                 <section className="ContactMe">
                 <section className="DirectLinks">
                     <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
