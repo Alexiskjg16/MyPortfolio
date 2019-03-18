@@ -14,7 +14,7 @@ class Resume extends Component {
                 <h1> 941.304.7266 </h1>
                 <h1> alexiskjg16@gmail.com </h1>
                 </section>
-                <h3 className="ResumeGoogle">Download a PDF of My Resume <a href={PDFResume} download>Here</a></h3>
+                <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
                 <span className="Skillset"> Tech Skills: </span>
                     <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, 
                      .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab </span>
