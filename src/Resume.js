@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Footer from './FooterContact';
-import PDFResume from './Pictures/AlexisGrisham2019.pdf';
 
 class Resume extends Component {
     render() {

@@ -6,9 +6,6 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <section>
-                    <Link to={"/HomePage"} className="AverageHomeLink">Back to Home</Link>
-                </section>
                 <section className="ContactMe">
                 <section className="DirectLinks">
                     <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer"><em className="fab fa-twitter-square"></em></a>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import HomePage from './HomePage';
 import AboutMe from './AboutMe';
 import ContactMe from './ContactMe';
 import HomeCoding from './CodingFiles/HomeCoding';
@@ -19,9 +18,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/HomePage" exact component={HomePage} />
-            <Route path="/AboutMe" exact component={AboutMe} />
+            <Route path="/" exact component={AboutMe} />
             <Route path="/ContactMe" exact component={ContactMe} />
             <Route path="/CodingExamples" exact component={HomeCoding} />
             <Route path="/BlogPosts" exact component={HomeBlog} />
