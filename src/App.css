@@ -30,27 +30,23 @@ color: pink;
 text-decoration: none;
 }
 
-.Leftside {
- background: rgb(66, 66, 66);
- width: 100%;
- padding-left: 10em;
-}
+
 .LeftsideTwo {
   background: rgb(72, 72, 72);
   width: 100%;
-  padding-left: 10em;
+  padding-left: 13em;
  }
  .LeftsideThree {
   background: rgb(80, 80, 80);
   width: 100%;
-  padding-left: 10em;
+  padding-left: 12em;
  }
   
 .Rightside {
 display: flex;
 justify-content: flex-end;
 background: rgb(69, 69, 69);
-padding-right:10em;
+padding-right: 13.5em;
 width: 100%;
 }
 .RightsideTwo {
@@ -58,7 +54,7 @@ width: 100%;
   justify-content: flex-end;
   background: rgb(76, 76, 76);
   width: 100%;
-  padding-right: 10em;
+  padding-right: 12em;
   }
 
 /* NavBar*/

@@ -3,6 +3,10 @@ import NavBar from "./NavBar";
 import Footer from "./FooterContact";
 
 class ContactMe extends Component {
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    }
+    
     render () {
         return (
             <div>

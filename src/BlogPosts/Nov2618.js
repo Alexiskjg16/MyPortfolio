@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 
 class Nov2618 extends Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     render() {
         return (
             <div>

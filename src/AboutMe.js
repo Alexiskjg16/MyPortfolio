@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 import Footer from './FooterContact';
 
 class AboutMe extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     render() {
         return (
             <div>
@@ -23,15 +26,14 @@ class AboutMe extends Component {
                        I wanted to be." - Diane Von Furstenberg</h1>
                     <p className="AboutParagraph"> Frequent Meetup Attendee, Sometimes Medium Blogger, Traveller (pictured is 
                     my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
-                        and am always looking for the next adventure in life. </p>
-                    <p className="AboutParagraph"> Inspirations:  Cara Alwell Leyba, Rosa Parks, John Green, Joan Ball.</p>
+                        and I am always looking for the next adventure - in work or play. </p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
                         some hopefully interesting and humorous code-related blog posts, or if you are curious, take a 
                         peek at my resume! </p>
                         <section className="HomeNav">
-                <Link to={"/BlogPosts"} className="Rightside"> Blog Articles </Link>
-                <Link to={"/CodingExamples"} className="LeftsideTwo"> Codes </Link>
-                <Link to={"/ContactMe"} className="RightsideTwo"> Contact Me </Link>
+                <Link to={"/BlogPosts"} className="Rightside"> Blog </Link>
+                <Link to={"/CodingExamples"} className="LeftsideTwo"> Code </Link>
+                <Link to={"/ContactMe"} className="RightsideTwo"> Contact </Link>
                 <Link to={"/Resume"} className="LeftsideThree"> Resume </Link>
                 </section>
                 <section>

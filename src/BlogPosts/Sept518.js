@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 
 
 class Sept518 extends Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     render() {
         return (
             <div>

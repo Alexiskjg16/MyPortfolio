@@ -8,6 +8,9 @@ import TBDV from '../Pictures/supportgroup.png';
 import ngTacos from '../Pictures/ngtacos.png';
 
 class HomeCoding extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     render() {
         return (
             <div>

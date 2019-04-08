@@ -5,7 +5,9 @@ import '../App.css'; import NavBar from '../NavBar';
 
 
 class Oct2218 extends Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     render() {
         return (
             <div>
