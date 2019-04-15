@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Clicker+Script");
 
+
 .App {
   display: flex;
   flex-direction: column;
@@ -7,6 +8,10 @@
   font-family: "Georgia", serif;
   height: 150%;
   padding-top: 5.5em;
+}
+
+.spacercauseimdumb {
+  height: 13em;
 }
 
 .NewBanner {
@@ -162,7 +167,7 @@ position: fixed;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 3em;
+  padding: 10em;
 }
 
 .contactLinks {
@@ -239,7 +244,7 @@ position: fixed;
 .indvLi {
   display: flex;
   flex-direction: row;
-  margin: 2em;
+  margin-left: 8em;
 }
 
 .pageInfo {
@@ -400,7 +405,7 @@ position: fixed;
   align-items: flex-start;
   font-family: "Clicker Script";
   margin-top: 2em;
-  margin-left: 2.5em;
+  margin-left: 4em;
   font-size: 3em;
 }
 
@@ -409,6 +414,7 @@ position: fixed;
   align-self: flex-start;
   font-size: 1.5em;
   margin: 1em 5em 2em;
+  margin-left: 8em;
   
 }
 

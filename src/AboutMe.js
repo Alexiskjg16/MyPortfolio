@@ -30,16 +30,16 @@ class AboutMe extends Component {
               <nav className="NavBarSide">
               <ul className="navbar-nav">
               <li className="nav-item">
-                <p onClick={this.clickToScroll} data-id="topofpage" className="nav-link"> ^ </p>
-              </li>
-              <li className="nav-item">
-               <p onClick={this.clickToScroll} data-id="Contact" className="nav-link">Contact </p>
+                <p onClick={this.clickToScroll} data-id="topofpage" className="nav-link">^</p>
               </li>
              <li className="nav-item">
-               <p onClick={this.clickToScroll} data-id="Codes" className="nav-link">Code </p>
+               <p onClick={this.clickToScroll} data-id="Codes" className="nav-link">Portfolio</p>
              </li>
              <li className="nav-item">
-              <p onClick={this.clickToScroll} data-id="Resume" className="nav-link">Resume </p>
+              <p onClick={this.clickToScroll} data-id="Resume" className="nav-link">Resume</p>
+              </li>
+              <li className="nav-item">
+               <p onClick={this.clickToScroll} data-id="Contact" className="nav-link">Contact</p>
               </li>
              </ul>
             </nav>
@@ -60,7 +60,7 @@ class AboutMe extends Component {
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
                         some hopefully interesting and humorous code-related blog posts, or if you are curious, take a 
                         peek at my resume! </p>
-         
+                        <section className="spacercauseimdumb"></section>
             <div id="Contact">
                   <section className="ContactPage">
                   <h1 className="contactTitles">Email: <a href="mailto:alexiskjg16@gmail.com" className="contactLinks">alexiskjg16@gmail.com</a></h1>
@@ -71,7 +71,7 @@ class AboutMe extends Component {
                   <h1 className="contactTitles">MeetUp: <a href="https://www.meetup.com/members/255780731/" target="_blank" rel="noopener noreferrer" className="contactLinks">Alexis Grisham</a> </h1>
                    </section>
             </div>
-
+            <section className="spacercauseimdumb"></section>
             <div id="Resume">
                 <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
                 <span className="Skillset"> Tech Skills: </span>
@@ -106,7 +106,7 @@ class AboutMe extends Component {
                     stock room for opimal usage</p>
                  </section>
             </div>
-
+               <section className="spacercauseimdumb"></section>
             <div id="Codes">
                 <ul className="HomeCodePage">
                     <li className="indvLi">
