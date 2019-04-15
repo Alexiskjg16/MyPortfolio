@@ -4,7 +4,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  background: rgb(255, 240, 250);
+  background: rgb(250, 245, 248);
   font-family: "Georgia", serif;
   height: 150%;
   padding-top: 5.5em;
@@ -30,37 +30,6 @@ font-family: "Georgia", serif;
 font-style: none;
 }
 
-.Leftside:Hover , .Rightside:Hover , .LeftsideTwo:Hover , .RightsideTwo:Hover , .LeftsideThree:Hover {
-color: pink;
-text-decoration: none;
-}
-
-
-.LeftsideTwo {
-  background: rgb(72, 72, 72);
-  width: 100%;
-  padding-left: 13em;
- }
- .LeftsideThree {
-  background: rgb(80, 80, 80);
-  width: 100%;
-  padding-left: 12em;
- }
-  
-.Rightside {
-display: flex;
-justify-content: flex-end;
-background: rgb(69, 69, 69);
-padding-right: 13.5em;
-width: 100%;
-}
-.RightsideTwo {
-  display: flex;
-  justify-content: flex-end;
-  background: rgb(76, 76, 76);
-  width: 100%;
-  padding-right: 12em;
-  }
 
 /* NavBar*/
 
@@ -188,7 +157,7 @@ position: fixed;
   flex-flow: row wrap;
   margin-top: 3em;
   margin-left: 2.5em;
-  width: 100%;
+  width: 95%;
 }
 
 .idvPics {
@@ -217,10 +186,12 @@ position: fixed;
 
 .Catchphrase {
   display: flex;
-  font-size: 500%;
+  font-size: 400%;
   font-family: "Clicker Script";
   text-align: center;
-  margin-bottom: 1em;
+  margin: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
   flex-wrap: wrap;
 }
 
