@@ -6,7 +6,7 @@ class Resume extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
       }
-      
+
     render() {
         return (
             <div>
@@ -16,7 +16,7 @@ class Resume extends Component {
                 <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
                 <span className="Skillset"> Tech Skills: </span>
                     <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, 
-                     .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab </span>
+                     .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab, Photoshop </span>
                     <span className="Skillset"> Interpersonal Skills: </span>
                     <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
                     Ability to Take Feedback, Desire to Learn, CPR Certified</span>
