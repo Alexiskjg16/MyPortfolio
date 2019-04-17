@@ -3,7 +3,6 @@ import './App.css';
 import codingimage from './Pictures/codingimages.jpg';
 import kissHappy from './Pictures/kissHappy.jpg';
 import spainProfile from './Pictures/spainProfile.jpg';
-import { Link } from "react-router-dom";
 import Footer from './FooterContact';
 import scoreBoard from './Pictures/scoreboard.png';
 import snowMan from './Pictures/snowman.png';
@@ -56,7 +55,7 @@ class AboutMe extends Component {
                        I wanted to be." - Diane Von Furstenberg</h1>
                     <p className="AboutParagraph"> Frequent Meetup Attendee, Sometimes Medium Blogger, Traveller (pictured is 
                     my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
-                        and I am always looking for the next adventure - in work or play. </p>
+                        and I am always looking for the next adventure -  <p className="important">in work or play.</p> </p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
                         some hopefully interesting and humorous code-related blog posts, or if you are curious, take a 
                         peek at my resume! </p>
@@ -66,6 +65,8 @@ class AboutMe extends Component {
                   <h1 className="contactTitles">Email: <a href="mailto:alexiskjg16@gmail.com" className="contactLinks">alexiskjg16@gmail.com</a></h1>
                   <h1 className="contactTitles">Phone: <a href="tel:9413047266" className="contactLinks">941.304.7266</a></h1>
                   <h1 className="contactTitles">LinkedIn: <a href="https://www.linkedin.com/in/alexis-grisham-434401169/" target="_blank" rel="noopener noreferrer" className="contactLinks">AlexisGrisham</a></h1>
+                  </section>
+                  <section className="ContactPage">
                    <h1 className="contactTitles">Twitter: <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer" className="contactLinks">@AlexisKJG16</a></h1>
                    <h1 className="contactTitles">Medium: <a href="https://medium.com/@alexiskjg16" target="_blank" rel="noopener noreferrer" className="contactLinks">Alexis K Grisham</a> </h1>
                   <h1 className="contactTitles">MeetUp: <a href="https://www.meetup.com/members/255780731/" target="_blank" rel="noopener noreferrer" className="contactLinks">Alexis Grisham</a> </h1>
@@ -84,24 +85,24 @@ class AboutMe extends Component {
                     <span className="Myskills"> Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
                  <section>
                     <span className="Skillset"> Education:</span>
-                    <p className="Myskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>
+                    <p className="Titleskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>
                     <p className="Myskills"> A three-month intensive program that teaches students client-side (front-end) technology: HTML, 
                         CSS, and JavaScript as well as server-side (back-end) technology such as .NET or Ruby on Rails. 
                         Upon completion students will be able to create fully functioning websites backed by databases 
                         and server-side applications.</p>
-                    <p className="Myskills">Kansas City Kansas Community College (2015) -- Associates Degree</p>
+                    <p className="Titleskills">Kansas City Kansas Community College (2015) -- Associates Degree</p>
                     <p className="Myskills"> Associates in General Education</p>
                     <span className="Skillset"> Employment History:</span>
-                    <p className="Myskills">Operation PAR(2019) -- Data Analyst</p>
+                    <p className="Titleskills">Operation PAR(2019) -- Data Analyst</p>
                     <p className="Myskills"> Used SQL to query data for tables, used C# to debug and write code snippets for their programming system, built
                     reports using Crystal Reports</p>
-                    <p className="Myskills">Ruby Tuesdays(2018) -- Server</p>
+                    <p className="Titleskills">Ruby Tuesdays(2018) -- Server</p>
                     <p className="Myskills"> Used POS system, took orders and ran food to tables, tended to guest needs, worked closely as a team with others</p>
-                    <p className="Myskills">Lansing USD 469 Lansing KS(2017) -- Substitute Teacher</p>
+                    <p className="Titleskills">Lansing USD 469 Lansing KS(2017) -- Substitute Teacher</p>
                     <p className="Myskills"> Implimented lessons and homeworks, graded papers, supervised students testtaking, assisted students with questions</p>
-                    <p className="Myskills">Dillons Grocer Leavenworth KS(2015) -- Bakery Clerk</p>
+                    <p className="Titleskills">Dillons Grocer Leavenworth KS(2015) -- Bakery Clerk</p>
                     <p className="Myskills"> Prepared and packaged baked goods, decorated cakes, attended to customer service needs</p>
-                    <p className="Myskills">RadioShack Leavenworth KS(2013) -- Sales Associate </p>
+                    <p className="Titleskills">RadioShack Leavenworth KS(2013) -- Sales Associate </p>
                     <p className="Myskills"> Sold and activated cell phones and plans, debugged electronic issues, personally reorganized and cleaned
                     stock room for opimal usage</p>
                  </section>
