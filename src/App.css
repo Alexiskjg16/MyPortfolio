@@ -461,10 +461,10 @@ z-index: 100;
   font-weight: bold;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 376px) {
 
   .App {
-    width: 100%;
+    width: 138%;
     background:rgb(255, 240, 250); 
 
   }
@@ -489,16 +489,16 @@ z-index: 100;
     width: 70%;
   }
 
-  .ContactMe {
+  .ContactPage {
     display: flex;
-    flex-direction: row;
+    width: 50%;
   }
 
-  .MainBlogPage {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    margin-bottom: auto;
+  .ResumeGoogle {
+    width: 40%;
+  }
+  .accordion {
+    width: 60%;
   }
 
   .Myskills {
@@ -512,6 +512,11 @@ z-index: 100;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+  }
+
+  .Titleskills {
+    width: 62%;
+    margin-left: 2.5em;
   }
 
   .Catchphrase {
@@ -574,22 +579,5 @@ z-index: 100;
     justify-content:center;
     font-size: 2.5em;
     margin-bottom: 3em;
-  }
-
-  .cantEven {
-    width: 25%;
-    margin-left: 51em;
-  }
-
-  .codeCamp {
-    width: 70%;
-  }
-
-  .getBetterFriends {
-    width: 70%;
-  }
-
-  .blogImages {
-    width: 70%;
   }
 }
