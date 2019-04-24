@@ -3,7 +3,6 @@ import './App.css';
 import codingimage from './Pictures/codingimages.jpg';
 import kissHappy from './Pictures/kissHappy.jpg';
 import spainProfile from './Pictures/spainProfile.jpg';
-import Footer from './FooterContact';
 import scoreBoard from './Pictures/scoreboard.png';
 import snowMan from './Pictures/snowman.png';
 import weatherAPI from './Pictures/weatherapp.png';
@@ -22,6 +21,35 @@ class AboutMe extends Component {
 
         window.scrollTo(0, elementToScrollTo.offsetTop)
     }
+
+    SectionOne = () => {
+            var x = document.getElementById("panel");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    
+    SectionTwo = () => {
+            var x = document.getElementById("panels");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+       
+   SectionThree = () => {
+            var x = document.getElementById("paneled");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+
+
 
     render() {
         return (
@@ -55,7 +83,7 @@ class AboutMe extends Component {
                        I wanted to be." - Diane Von Furstenberg</h1>
                     <p className="AboutParagraph"> Frequent Meetup Attendee, Sometimes Medium Blogger, Traveller (pictured is 
                     my 2011 viewing of the Running of the Bulls in Pamplona, Spain!)
-                        and I am always looking for the next adventure -  <p className="important">in work or play.</p> </p>
+                        and I am always looking for the next adventure -  in work or play. </p>
                     <p className="AboutParagraph"> Check out the links for examples of websites I have created and their codes,
                         some hopefully interesting and humorous code-related blog posts, or if you are curious, take a 
                         peek at my resume! </p>
@@ -74,15 +102,24 @@ class AboutMe extends Component {
             </div>
             <section className="spacercauseimdumb"></section>
             <div id="Resume">
-                <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
-                <span className="Skillset"> Tech Skills: </span>
-                    <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, 
-                     .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab, Photoshop </span>
-                    <span className="Skillset"> Interpersonal Skills: </span>
-                    <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
-                    Ability to Take Feedback, Desire to Learn, CPR Certified</span>
-                    <span className="Skillset"> Participated In: </span>
-                    <span className="Myskills"> Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
+            <span className="resumeTitle">Resume</span>
+                <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="ResumeGoogle">View PDF</a>
+            
+                <button className="accordion" onClick={this.SectionOne}> Tech Skills: </button>
+        <div id="panel" className="panel">
+            <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, 
+              .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab, Photoshop </span>
+        </div>
+        <button className="accordion" onClick={this.SectionTwo}> Interpersonal Skills: </button>
+        <div id="panels" className="panel">
+            <span className="Myskills">Communication, Team-Building, Problem-Solving, Social Media, Networking, 
+            Ability to Take Feedback, Desire to Learn, CPR Certified</span>
+        </div>
+        <button className="accordion" onClick={this.SectionThree}> Participated In: </button>
+        <div id="paneled" className="panel">
+        <span className="Myskills"> Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
+        </div>
+
                  <section>
                     <span className="Skillset"> Education:</span>
                     <p className="Titleskills">Suncoast Developers Guild (2018) -- Web Development Certifications</p>
@@ -109,6 +146,7 @@ class AboutMe extends Component {
             </div>
                <section className="spacercauseimdumb"></section>
             <div id="Codes">
+            <span className="resumeTitle">Portfolio Work</span>
                 <ul className="HomeCodePage">
                     <li className="indvLi">
                      <img src={TBDV} alt="SupportGroup" className="codeImages" />
@@ -152,9 +190,9 @@ class AboutMe extends Component {
                     </li>
                 </ul>
             </div>
-                <section>
-                    <Footer />
-                </section>
+                  <section>
+                    <h6 className="copyright">Made with love, REACT, && C# -2018-</h6>
+                  </section>
             </div>
 
         )

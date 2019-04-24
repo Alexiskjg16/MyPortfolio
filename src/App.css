@@ -241,7 +241,14 @@ z-index: 100;
   font-size: 1.7em;
   color: black;
   flex-direction: column;
-  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.active, .CodeList:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  border-radius: 16px;
+  color: black;
 }
 
 .codeImages {
@@ -348,7 +355,6 @@ z-index: 100;
 .MediumImage {
   width: 350%;
   margin-left:-15em;
-
   padding: 0.1em;
   background-color: rgb(197, 196, 196);
 }
@@ -356,8 +362,45 @@ z-index: 100;
 /*Resume*/
 
 .ResumeGoogle {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
-  text-align: center;
+  margin-left: 42.5%;
+  width: 15%;
+  background-color: rgb(190, 190, 190);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 2em;
+  border-radius: 16px;
+}
+
+.accordion {
+  background: rgb(250, 245, 248);
+  color: #444;
+  cursor: pointer;
+  width: 20%;
+  display: flex;
+  align-items: flex-start;
+  font-family: "Clicker Script";
+  margin-top: 1em;
+  margin-left: 4.5em;
+  font-size: 2.5em;
+  border: none;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+  border-radius: 16px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  display: none;
+
 }
 
 .ResumeDetails {
@@ -391,6 +434,14 @@ z-index: 100;
   margin-top: 2em;
   margin-left: 4em;
   font-size: 3em;
+}
+
+.resumeTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Clicker Script";
+  margin-top: 2em;
+  font-size: 5em;
 }
 
 .Myskills {
