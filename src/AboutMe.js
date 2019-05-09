@@ -8,6 +8,7 @@ import snowMan from './Pictures/snowman.png';
 import weatherAPI from './Pictures/weatherapp.png';
 import TBDV from './Pictures/supportgroup.png';
 import ngTacos from './Pictures/ngtacos.png';
+import dicerollapp from './Pictures/dicerolls.png';
 
 class AboutMe extends Component {
     componentDidMount() {
@@ -148,6 +149,14 @@ class AboutMe extends Component {
             <div id="Codes">
             <span className="resumeTitle">Portfolio Work</span>
                 <ul className="HomeCodePage">
+                <li className="indvLi">
+                    <img src={dicerollapp} alt="DiceRoll" className="codeImages" />
+                    <section className="pageInfo">
+                    <a href="http://diceroll.surge.sh/" target="_blank" rel="noopener noreferrer" className="CodeList"> RPG Dice Roller</a>
+                    <h1>React JS</h1>
+                    <a href="https://github.com/Alexiskjg16/DungeonsDragons" target="_blank" rel="noopener noreferrer" className="CodeList"> What's the Code?</a>
+                </section>
+                </li>
                     <li className="indvLi">
                      <img src={TBDV} alt="SupportGroup" className="codeImages" />
                      <section className="pageInfo">
