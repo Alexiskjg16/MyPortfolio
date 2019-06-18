@@ -73,7 +73,7 @@ class AboutMe extends Component {
             </nav>
                 <section>
                     <header className="MyName"> Alexis K. Grisham</header>
-                    <h2 className="MyTitle"> Full Stack Developer </h2>
+                    <h2 className="MyTitle"> Front-End Developer </h2>
                     </section>
                 <section className="ImageSection">
                     <img src={codingimage} alt="LoveTheCode" className="codingimage"/>
@@ -108,7 +108,7 @@ class AboutMe extends Component {
             
                 <button className="accordion" onClick={this.SectionOne}> Tech Skills: </button>
         <div id="panel" className="panel">
-            <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, 
+            <span className="Myskills"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, CSSGrid, Git, 
               .NET, C#, SQL, VisualStudio, Trello, ChromeCast, Crystal Reports, GitHub, GitLab, Photoshop </span>
         </div>
         <button className="accordion" onClick={this.SectionTwo}> Interpersonal Skills: </button>
@@ -118,7 +118,7 @@ class AboutMe extends Component {
         </div>
         <button className="accordion" onClick={this.SectionThree}> Participated In: </button>
         <div id="paneled" className="panel">
-        <span className="Myskills"> Women in Tech Meetups, Code For America Hackathon 2018, BarCamp 2018, Multiple Personal Projects</span>
+        <span className="Myskills"> Women in Tech, Code For America Hackathon 2018, BarCamp 2018</span>
         </div>
 
                  <section>
@@ -128,6 +128,8 @@ class AboutMe extends Component {
                         CSS, and JavaScript as well as server-side (back-end) technology such as .NET or Ruby on Rails. 
                         Upon completion students will be able to create fully functioning websites backed by databases 
                         and server-side applications.</p>
+                        <p className="Titleskills">University of Kansas (2017) -- Candidate for Bachelors in Secondary Education</p>
+                        <p className="Myskills"> Completed over 3 years of the required 4 to obtain a degree.</p>
                     <p className="Titleskills">Kansas City Kansas Community College (2015) -- Associates Degree</p>
                     <p className="Myskills"> Associates in General Education</p>
                     <span className="Skillset"> Employment History:</span>
@@ -136,13 +138,13 @@ class AboutMe extends Component {
                     reports using Crystal Reports</p>
                     <p className="Titleskills">Ruby Tuesdays(2018) -- Server</p>
                     <p className="Myskills"> Used POS system, took orders and ran food to tables, tended to guest needs, worked closely as a team with others</p>
-                    <p className="Titleskills">Lansing USD 469 Lansing KS(2017) -- Substitute Teacher</p>
+                    <p className="Titleskills">Lansing USD 469(2017) -- Substitute Teacher</p>
                     <p className="Myskills"> Implimented lessons and homeworks, graded papers, supervised students testtaking, assisted students with questions</p>
-                    <p className="Titleskills">Dillons Grocer Leavenworth KS(2015) -- Bakery Clerk</p>
+                    <p className="Titleskills">Dillons Grocer(2015) -- Bakery Clerk</p>
                     <p className="Myskills"> Prepared and packaged baked goods, decorated cakes, attended to customer service needs</p>
-                    <p className="Titleskills">RadioShack Leavenworth KS(2013) -- Sales Associate </p>
+                    <p className="Titleskills">RadioShack(2013) -- Sales Associate </p>
                     <p className="Myskills"> Sold and activated cell phones and plans, debugged electronic issues, personally reorganized and cleaned
-                    stock room for opimal usage</p>
+                    stock room for optimal usage</p>
                  </section>
             </div>
                <section className="spacercauseimdumb"></section>
@@ -200,7 +202,7 @@ class AboutMe extends Component {
                 </ul>
             </div>
                   <section>
-                    <h6 className="copyright">Made with love, REACT, && C# -2018-</h6>
+                    <h6 className="copyright">Made with love, REACT, && C# -©2019-</h6>
                   </section>
             </div>
 
